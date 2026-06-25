@@ -1,0 +1,1007 @@
+id,htc_stat,oth_fam,reg_date,bdate,htype
+001-0061-94557,Established Patient,Y,14138.0,1414.0,Hemophilia A
+001-0218-29622,Established Patient,N,15601.0,14532.0,Hemophilia A
+001-0301-70172,Established Patient,N,14229.0,2996.0,Hemophilia A
+001-0424-25767,Established Patient,N,14411.0,10057.0,Hemophilia A
+001-0554-25276,Established Patient,Y,14180.0,5279.0,Hemophilia A
+001-0843-42450,Established Patient,N,15664.0,14471.0,Hemophilia A
+001-1048-54157,Established Patient,Y,15055.0,-5739.0,Hemophilia A
+001-1311-94869,Established Patient,N,14355.0,3787.0,Hemophilia A
+001-1713-85321,Established,N,17001.0,9419.0,Hemophilia A
+001-1913-76093,Established Patient,Y,14054.0,-3273.0,Hemophilia A
+001-2174-25196,Established Patient,Y,14229.0,-1843.0,Hemophilia A
+001-2176-91351,Established Patient,Y,14229.0,-504.0,Hemophilia A
+001-2347-65361,Established Patient,Y,14180.0,-10274.0,Hemophilia A
+001-2380-49925,Established Patient,N,14411.0,-716.0,Hemophilia A
+001-2385-13813,New Patient,N,15090.0,12099.0,Hemophilia A
+001-2444-46226,Established Patient,N,14005.0,7074.0,Hemophilia A
+001-2524-19562,New Patient,N,17092.0,-716.0,Hemophilia B
+001-2740-49258,Established Patient,Y,14229.0,5979.0,Hemophilia A
+001-2763-18028,Established Patient,N,14180.0,4244.0,Hemophilia A
+001-3545-70738,Established Patient,Y,14054.0,4366.0,Hemophilia A
+001-3840-49487,Established Patient,Y,14411.0,10393.0,Hemophilia A
+001-3882-99459,Established Patient,Y,14733.0,1749.0,Hemophilia A
+001-4117-95176,Established Patient,Y,14292.0,12099.0,Hemophilia A
+001-4284-16360,Established Patient,Y,14383.0,-7322.0,Hemophilia A
+001-4515-58165,Established Patient,Y,16329.0,15414.0,Hemophilia B
+001-4515-70632,Established Patient,Y,15489.0,14471.0,Hemophilia B
+001-4611-97628,New Patient,N,16168.0,9177.0,Hemophilia A
+001-4694-53079,Transfer Patient,Y,15825.0,3302.0,Hemophilia A
+001-4721-94615,New Patient,Y,14775.0,9266.0,Hemophilia A
+001-4881-90542,New Patient,N,15139.0,10941.0,Hemophilia A
+001-4887-82364,New Patient,N,15139.0,11488.0,Hemophilia A
+001-4987-95195,Established Patient,N,14201.0,1688.0,Hemophilia A
+001-5012-63332,Established,Y,16595.0,5827.0,Hemophilia A
+001-5017-95273,Established Patient,Y,14383.0,8535.0,Hemophilia A
+001-5044-25836,Established Patient,N,14138.0,1657.0,Hemophilia A
+001-5164-46984,Established Patient,N,15664.0,14837.0,Hemophilia A
+001-5232-63433,New Patient,N,14565.0,11641.0,Hemophilia A
+001-5293-47473,Established Patient,Y,15237.0,10210.0,Hemophilia A
+001-5333-60081,New Patient,N,14957.0,5949.0,Hemophilia A
+001-5337-95003,New Patient,Y,15153.0,5279.0,Hemophilia A
+001-5415-20313,Transfer Pat,Y,17414.0,13284.0,Hemophilia A
+001-5623-76085,Established Patient,N,14257.0,-838.0,Hemophilia A
+001-5754-25307,Established Patient,Y,14257.0,-4369.0,Hemophilia A
+001-5756-39754,Established Patient,Y,14229.0,-1081.0,Hemophilia A
+001-5761-90064,Established Patient,Y,14201.0,745.0,Hemophilia A
+001-5811-29172,Established Patient,N,14180.0,2145.0,Hemophilia B
+001-5913-29984,Established Patient,Y,14355.0,8658.0,Hemophilia A
+001-6012-27235,Established Patient,N,15076.0,-2695.0,Hemophilia A
+001-6044-25791,Established Patient,Y,15398.0,745.0,Hemophilia A
+001-6044-46479,New Patient,Y,14929.0,-13135.0,Hemophilia A
+001-6161-97226,Established,N,14005.0,7074.0,Hemophilia A
+001-6289-58408,Established Patient,N,14355.0,4122.0,Hemophilia A
+001-6641-94913,Established Patient,N,14411.0,5552.0,Hemophilia A
+001-6784-46023,Established Patient,N,14726.0,13984.0,Hemophilia A
+001-6838-02063,Established Patient,Y,14201.0,470.0,Hemophilia A
+001-6919-47252,Established Patient,Y,14229.0,8688.0,Hemophilia A
+001-7004-53562,Established Patient,Y,14054.0,7563.0,Hemophilia A
+001-7065-70575,Established Patient,Y,15265.0,13649.0,Hemophilia A
+001-7169-63202,Established Patient,Y,15664.0,14290.0,Hemophilia A
+001-7266-20300,Established Patient,,14292.0,13376.0,Hemophilia B
+001-7399-15816,Established Patient,N,14138.0,2084.0,Hemophilia B
+001-7411-58143,Transfer Patient,N,16028.0,9966.0,Hemophilia A
+001-7582-50084,New Patient,N,14719.0,-3214.0,Hemophilia A
+001-7589-55694,New Patient,Y,14719.0,9631.0,Hemophilia A
+001-7745-37214,Established Patient,N,14005.0,7440.0,Hemophilia A
+001-7817-46583,Established,Y,17176.0,6832.0,Hemophilia A
+001-7878-02034,Established Patient,N,16189.0,-2269.0,Hemophilia A
+001-7886-56772,Established,Y,16903.0,319.0,Hemophilia A
+001-8169-31837,Transfer Patient,N,14537.0,4883.0,Hemophilia A
+001-8178-30782,Established Patient,Y,17099.0,15840.0,Hemophilia A
+001-8478-09524,New Patient,Y,16441.0,-5770.0,Hemophilia A
+001-8524-53412,Established Patient,Y,14292.0,9419.0,Hemophilia A
+001-8603-79687,Established Patient,Y,14005.0,6740.0,Hemophilia A
+001-8718-05978,Established Patient,N,14257.0,9266.0,Hemophilia A
+001-8888-29060,Established Patient,N,14292.0,9907.0,Hemophilia A
+001-8922-36632,Established Patient,N,14292.0,10941.0,Hemophilia A
+001-8971-58442,Established Patient,N,15601.0,14806.0,Hemophilia A
+001-9137-49721,Established Patient,Y,14201.0,5067.0,Hemophilia B
+001-9292-27476,Established Patient,N,15846.0,1627.0,Hemophilia A
+001-9391-90751,Established Patient,Y,14383.0,-1050.0,Hemophilia A
+001-9793-76268,Established Patient,Y,14180.0,-6744.0,Hemophilia A
+001-9848-02681,Established Patient,N,14355.0,4122.0,Hemophilia A
+001-9848-29416,Established Patient,N,14628.0,-5922.0,Hemophilia A
+001-9874-83316,New Patient,N,15083.0,10027.0,Hemophilia A
+001-9883-76819,Established Patient,Y,15090.0,14137.0,Hemophilia A
+001-9885-26932,Established Patient,Y,14229.0,4001.0,Hemophilia A
+001-9888-54336,Established Patient,Y,14257.0,745.0,Hemophilia A
+002-0268-29296,Established Patient,N,15155.0,8081.0,Hemophilia A
+002-0343-76547,Established Patient,N,15918.0,14990.0,Hemophilia A
+002-0591-58878,Established Patient,Y,14696.0,12857.0,Hemophilia A
+002-0746-24820,Established Patient,Y,14784.0,2053.0,Hemophilia A
+002-0941-90910,Established Patient,N,14329.0,10911.0,Hemophilia A
+002-1041-26501,Established Patient,Y,14784.0,9723.0,Hemophilia A
+002-1047-08943,Established Patient,Y,14784.0,7716.0,Hemophilia A
+002-1104-25132,Established,Y,16454.0,13560.0,Hemophilia A
+002-1108-59233,Established Patient,Y,14586.0,12918.0,Hemophilia A
+002-1328-05469,Established Patient,N,16615.0,11092.0,Hemophilia A
+002-1618-02381,Established Patient,N,14390.0,10788.0,Hemophilia A
+002-1963-85453,Established Patient,N,15155.0,14167.0,Hemophilia A
+002-2182-70158,Established,N,16825.0,15751.0,Hemophilia A
+002-2761-68903,Established Patient,Y,15827.0,15049.0,Hemophilia A
+002-2766-87673,Established Patient,Y,15827.0,13588.0,Hemophilia A
+002-2959-47460,Established Patient,N,14696.0,11733.0,Hemophilia A
+002-3054-49747,Established Patient,Y,14586.0,11337.0,Hemophilia A
+002-3058-30725,Established Patient,Y,14586.0,12068.0,Hemophilia A
+002-3131-58168,New Patient,Y,15407.0,3027.0,Hemophilia B
+002-3191-20664,Established Patient,Y,14910.0,1291.0,Hemophilia A
+002-3194-16664,Established Patient,Y,14910.0,1291.0,Hemophilia A
+002-3194-16676,Established Patient,Y,15771.0,926.0,Hemophilia A
+002-4060-49235,Established Patient,N,15361.0,12614.0,Hemophilia B
+002-4089-62547,Established Patient,N,15918.0,14990.0,Hemophilia A
+002-4118-29382,Established Patient,Y,15554.0,-8048.0,Hemophilia A
+002-4438-61571,Established Patient,Y,14693.0,10758.0,Hemophilia A
+002-4441-29654,Established Patient,N,15372.0,4610.0,Hemophilia A
+002-4519-76802,Established Patient,Y,15686.0,14837.0,Hemophilia A
+002-4763-76230,Established Patient,N,14769.0,3241.0,Hemophilia A
+002-4808-39950,Established Patient,Y,14586.0,13560.0,Hemophilia A
+002-5150-49886,Established Patient,N,16160.0,8993.0,Hemophilia A
+002-5220-28248,Established Patient,Y,15155.0,5766.0,Hemophilia B
+002-5306-39494,Established Patient,Y,14858.0,13284.0,Hemophilia B
+002-6049-61892,Established Patient,Y,14888.0,-19436.0,Hemophilia A
+002-6062-02786,Established Patient,N,14832.0,12007.0,Hemophilia A
+002-6163-79503,Established Patient,N,16216.0,13223.0,Hemophilia A
+002-6455-26657,Established Patient,Y,14693.0,13710.0,Hemophilia A
+002-6757-95073,Established Patient,N,15110.0,5401.0,Hemophilia B
+002-7507-21802,Established,Y,16909.0,14837.0,Hemophilia A
+002-7507-66259,Established,Y,16909.0,14532.0,Hemophilia A
+002-7507-66997,Established Patient,Y,14959.0,14167.0,Hemophilia A
+002-7614-50571,Established Patient,N,16846.0,16054.0,Hemophilia A
+002-7791-01731,New Patient,N,17035.0,11457.0,Hemophilia B
+002-7791-01839,Established,N,17434.0,11337.0,Hemophilia B
+002-8094-16951,Established Patient,N,16720.0,-5283.0,Hemophilia A
+002-8153-35243,New Patient,N,15407.0,6375.0,Hemophilia A
+002-8174-25953,Established Patient,,14390.0,3271.0,Hemophilia A
+002-8444-41655,Established Patient,N,14390.0,7836.0,Hemophilia A
+002-8488-09657,Established Patient,Y,14910.0,-6925.0,Hemophilia A
+002-8568-99362,Established Patient,Y,14756.0,8840.0,Hemophilia A
+002-8655-20209,Established,Y,16769.0,1872.0,Hemophilia A
+002-8956-91601,Established Patient,Y,15881.0,9935.0,Hemophilia A
+002-8958-02531,Established Patient,Y,15881.0,8932.0,Hemophilia A
+002-9048-86237,Established,N,17035.0,9935.0,Hemophilia A
+002-9122-33353,Established Patient,Y,15827.0,14228.0,Hemophilia A
+002-9258-61717,,Y,14390.0,11276.0,Hemophilia A
+002-9485-20990,Established Patient,N,15918.0,15080.0,Hemophilia A
+002-9708-88204,Established Patient,N,14586.0,13132.0,Hemophilia A
+002-9908-70244,New Patient,N,16552.0,15779.0,Hemophilia A
+004-0146-49264,Established Patient,Y,16231.0,15355.0,Hemophilia B
+004-0853-31526,Established Patient,Y,15252.0,11915.0,Hemophilia A
+004-0875-83801,Established Patient,N,16358.0,15414.0,Hemophilia A
+004-0878-77630,Established Patient,Y,15427.0,8871.0,Hemophilia A
+004-1247-82056,Established Patient,Y,16043.0,15263.0,Hemophilia A
+004-1315-13486,Established Patient,Y,15769.0,7166.0,Hemophilia A
+004-1327-82860,Established,Y,15735.0,13560.0,Hemophilia A
+004-1328-71860,Established Patient,Y,15735.0,13560.0,Hemophilia A
+004-1354-49648,Established,Y,16405.0,13498.0,Hemophilia A
+004-1551-14619,Established Patient,Y,15427.0,11610.0,Hemophilia A
+004-1647-95070,Established,Y,16357.0,-443.0,Hemophilia A
+004-1748-54073,Established,Y,16091.0,105.0,Hemophilia B
+004-1844-25178,Established Patient,Y,15280.0,10941.0,Hemophilia A
+004-2236-79088,Established,Y,16405.0,14745.0,Hemophilia B
+004-2532-50239,Established Patient,Y,15685.0,-8905.0,Hemophilia A
+004-2594-65319,Established Patient,Y,15783.0,9723.0,Hemophilia A
+004-2734-46569,Established,Y,16455.0,10180.0,Hemophilia A
+004-2734-46792,Established Patient,Y,16455.0,10180.0,Hemophilia A
+004-3028-77123,Established,Y,17030.0,16298.0,Hemophilia A
+004-3052-63187,Established Patient,Y,15783.0,13833.0,Hemophilia B
+004-3470-36786,Established Patient,N,15840.0,9631.0,Hemophilia A
+004-3614-31778,Established Patient,Y,15622.0,9115.0,Hemophilia B
+004-3709-78929,Established Patient,Y,16078.0,10485.0,Hemophilia B
+004-3720-94345,Established Patient,Y,16162.0,15141.0,Hemophilia A
+004-3744-82972,Established Patient,Y,15678.0,11976.0,Hemophilia B
+004-3745-13077,Established Patient,Y,15678.0,11306.0,Hemophilia B
+004-3765-20120,Established,Y,16358.0,9845.0,Hemophilia A
+004-4105-58949,Established Patient,N,15560.0,9484.0,Hemophilia A
+004-4106-64939,Established Patient,Y,15560.0,9849.0,Hemophilia A
+004-4263-37840,Established,Y,16582.0,13710.0,Hemophilia B
+004-4614-25745,Established Patient,N,15601.0,-1295.0,Hemophilia A
+004-5057-49052,Established Patient,Y,15138.0,-2118.0,Hemophilia B
+004-5291-84547,Established Patient,Y,15321.0,2630.0,Hemophilia A
+004-5593-73158,Established,Y,16597.0,15751.0,Hemophilia B
+004-6066-91698,Established Patient,Y,16043.0,12553.0,Hemophilia A
+004-6085-60013,Established,Y,16405.0,10819.0,Hemophilia B
+004-6915-70018,Established Patient,Y,15601.0,4975.0,Hemophilia A
+004-6918-09380,Established Patient,Y,15280.0,10515.0,Hemophilia A
+004-6963-30517,Established Patient,Y,15756.0,12553.0,Hemophilia A
+004-7008-70692,Established Patient,N,15846.0,804.0,Hemophilia A
+004-7053-42899,Established,Y,16869.0,15080.0,Hemophilia A
+004-7266-79580,Established Patient,Y,15972.0,13894.0,Hemophilia B
+004-7460-49372,Established Patient,Y,15321.0,5524.0,Hemophilia A
+004-7538-02978,Established Patient,Y,16043.0,14593.0,Hemophilia B
+004-7545-37560,Established Patient,Y,15601.0,8140.0,Hemophilia A
+004-7603-35604,Established Patient,N,15685.0,6679.0,Hemophilia A
+004-7793-86980,Established Patient,Y,15685.0,8688.0,Hemophilia A
+004-8101-97918,Established Patient,N,15601.0,684.0,Hemophilia B
+004-8108-29649,Established Patient,Y,15455.0,10819.0,Hemophilia A
+004-8228-02880,Established Patient,N,15874.0,3422.0,Hemophilia B
+004-8408-54227,Transfer Patient,Y,15321.0,-1539.0,Hemophilia B
+004-8463-91785,Established Patient,Y,15427.0,12584.0,Hemophilia B
+004-8708-81299,Established Patient,Y,15965.0,-1934.0,Hemophilia A
+004-8861-29603,Established Patient,Y,15623.0,12584.0,Hemophilia B
+004-8865-76572,New Patient,N,15174.0,-2208.0,Hemophilia B
+004-9789-15041,Established Patient,Y,15846.0,349.0,Hemophilia B
+004-9862-63601,Established Patient,N,15658.0,9085.0,Hemophilia A
+004-9875-26551,Established,N,16392.0,-4156.0,Hemophilia A
+004-9986-49894,Established Patient,N,16239.0,15110.0,Hemophilia A
+006-0122-63198,Established Patient,Y,14612.0,2237.0,Hemophilia A
+006-0129-80585,New Patient,Y,16268.0,926.0,Hemophilia A
+006-0149-92883,Established Patient,Y,15601.0,-2787.0,Hemophilia A
+006-0317-95901,Established Patient,Y,14221.0,-17.0,Hemophilia A
+006-0355-37572,New Patient,N,14578.0,6923.0,Hemophilia A
+006-0668-09743,Established Patient,Y,14992.0,5187.0,Hemophilia A
+006-0842-63841,Established Patient,Y,14189.0,7227.0,Hemophilia A
+006-0902-50804,Established Patient,N,14942.0,2175.0,Hemophilia B
+006-1036-64543,Established Patient,Y,14189.0,5036.0,Hemophilia B
+006-1037-95693,Established Patient,N,14203.0,12311.0,Hemophilia A
+006-1110-35768,Established Patient,Y,14378.0,4152.0,Hemophilia A
+006-1183-35036,New Patient,Y,15125.0,1230.0,Hemophilia A
+006-1224-48401,New Patient,Y,14308.0,-1722.0,Hemophilia A
+006-1245-37304,Established Patient,N,14444.0,10119.0,Hemophilia A
+006-1644-46135,Established Patient,N,14287.0,9450.0,Hemophilia A
+006-1667-65768,Established,Y,17324.0,-1753.0,Hemophilia B
+006-1704-16364,New Patient,Y,15305.0,-1173.0,Hemophilia A
+006-1709-47646,Established Patient,N,14844.0,4944.0,Hemophilia A
+006-1711-70427,Established Patient,N,14343.0,12829.0,Hemophilia A
+006-1802-27972,Established Patient,N,14206.0,470.0,Hemophilia A
+006-2005-58906,Established Patient,N,14297.0,11793.0,Hemophilia B
+006-2031-90104,Established Patient,N,14497.0,5493.0,Hemophilia A
+006-2161-20664,Established Patient,Y,14189.0,1872.0,Hemophilia A
+006-2353-21914,Established Patient,Y,14355.0,10880.0,Hemophilia A
+006-2403-41059,Established Patient,Y,16369.0,15233.0,Hemophilia A
+006-2569-22887,Established Patient,N,14343.0,12219.0,Hemophilia A
+006-2731-97791,Established Patient,Y,14865.0,3118.0,Hemophilia A
+006-2732-63089,Established Patient,N,15088.0,11215.0,Hemophilia A
+006-3025-26889,Established Patient,Y,14433.0,411.0,Hemophilia A
+006-3112-31487,Established Patient,N,14634.0,-7870.0,Hemophilia A
+006-3621-90442,New Patient,Y,15278.0,4428.0,Hemophilia A
+006-3665-70550,New Patient,Y,16861.0,4702.0,Hemophilia B
+006-3698-77735,Established Patient,Y,14411.0,-4461.0,Hemophilia A
+006-3765-32601,Established Patient,Y,16342.0,-47.0,Hemophilia B
+006-3775-37197,New Patient,Y,14770.0,7288.0,Hemophilia A
+006-3778-29551,New Patient,Y,14788.0,8780.0,Hemophilia A
+006-4122-50640,Established Patient,Y,14221.0,-1478.0,Hemophilia A
+006-4392-16260,Established Patient,N,14672.0,11580.0,Hemophilia A
+006-4461-29514,Transfer Patient,Y,15036.0,9907.0,Hemophilia A
+006-4468-29645,Transfer Patient,Y,15036.0,10850.0,Hemophilia A
+006-5094-83134,New Patient,N,16384.0,-5283.0,Hemophilia A
+006-5241-68931,Transfer Pat,N,17251.0,10180.0,Hemophilia A
+006-5255-37792,Transfer Patient,N,14461.0,9297.0,Hemophilia A
+006-5418-79370,Established Patient,Y,15070.0,14106.0,Hemophilia A
+006-5526-60768,New Patient,N,15616.0,13560.0,Hemophilia A
+006-5571-97030,New Patient,Y,16861.0,1566.0,Hemophilia A
+006-5654-53558,New Patient,N,14984.0,4641.0,Hemophilia B
+006-5762-68344,Transfer Patient,N,15327.0,2783.0,Hemophilia A
+006-5970-08236,Established Patient,Y,14343.0,12614.0,Hemophilia A
+006-5975-20493,Established Patient,N,14308.0,7685.0,Hemophilia A
+006-5975-20857,Established,N,14308.0,7685.0,Hemophilia A
+006-6013-42999,Established Patient,Y,14735.0,8262.0,Hemophilia A
+006-6063-76037,Established Patient,Y,15047.0,-5525.0,Hemophilia A
+006-6312-51498,Established Patient,N,14714.0,12402.0,Hemophilia A
+006-6424-77482,Established Patient,Y,14199.0,10149.0,Hemophilia A
+006-6440-12257,Established Patient,N,14497.0,5705.0,Hemophilia A
+006-6441-29484,Established Patient,Y,14510.0,4518.0,Hemophilia A
+006-6447-95334,Established Patient,Y,14564.0,6375.0,Hemophilia A
+006-6458-02132,New Patient,Y,14549.0,-1753.0,Hemophilia B
+006-6784-16604,Established Patient,Y,14413.0,9631.0,Hemophilia A
+006-6952-63339,Established Patient,Y,14315.0,8719.0,Hemophilia A
+006-7258-09423,Established Patient,Y,14347.0,-5405.0,Hemophilia A
+006-7286-26495,Established Patient,N,14315.0,10332.0,Hemophilia A
+006-7398-54392,Established Patient,Y,14335.0,-4887.0,Hemophilia A
+006-7399-15816,Transfer Patient,N,14763.0,2084.0,Hemophilia B
+006-7504-66685,New Patient,Y,15067.0,-2087.0,Hemophilia A
+006-7505-70262,Established Patient,Y,14844.0,-231.0,Hemophilia A
+006-7548-52140,Established,Y,14368.0,-8844.0,Hemophilia B
+006-7682-16512,New Patient,Y,14917.0,6405.0,Hemophilia B
+006-7684-49683,Established Patient,N,14823.0,9996.0,Hemophilia A
+006-7784-49217,Established Patient,N,14725.0,13894.0,Hemophilia A
+006-7884-25075,Established Patient,Y,14221.0,-200.0,Hemophilia A
+006-7887-66510,New Patient,N,16457.0,3757.0,Hemophilia B
+006-7949-82363,New Patient,N,16476.0,14440.0,Hemophilia A
+006-8111-90663,Established Patient,Y,15379.0,-1356.0,Hemophilia A
+006-8170-38084,Established Patient,Y,15841.0,-3214.0,Hemophilia A
+006-8260-94989,Established Patient,Y,14273.0,2722.0,Hemophilia A
+006-8367-32720,Established Patient,N,14343.0,11823.0,Hemophilia A
+006-8434-53696,Established Patient,Y,14747.0,3726.0,Hemophilia A
+006-8650-49792,Established Patient,Y,14308.0,9876.0,Hemophilia A
+006-8652-63283,Established Patient,Y,14308.0,8170.0,Hemophilia A
+006-8758-09833,Established Patient,N,15139.0,-7170.0,Hemophilia B
+006-8923-60138,Established Patient,N,14206.0,12949.0,Hemophilia A
+006-9309-47405,New Patient,N,16715.0,9754.0,Hemophilia A
+006-9350-49860,Established Patient,Y,14287.0,9754.0,Hemophilia A
+006-9359-96048,Established Patient,Y,14385.0,1141.0,Hemophilia A
+006-9478-29839,Established Patient,N,14199.0,-6925.0,Hemophilia B
+006-9641-52140,Established Patient,Y,14368.0,-8844.0,Hemophilia B
+006-9701-84393,Established,N,17591.0,7744.0,Hemophilia A
+007-0251-90253,Established Patient,N,14838.0,-12526.0,Hemophilia A
+007-0484-26655,Established Patient,Y,14350.0,13437.0,Hemophilia A
+007-0486-26910,Established,Y,17573.0,5583.0,Hemophilia A
+007-0564-46086,Established Patient,N,15167.0,14471.0,Hemophilia A
+007-0842-63903,Established Patient,Y,15258.0,14198.0,Hemophilia A
+007-0896-56165,Established Patient,N,15872.0,380.0,Hemophilia A
+007-1008-83231,Established Patient,Y,16931.0,15598.0,Hemophilia B
+007-1114-25793,Established Patient,Y,15015.0,6344.0,Hemophilia A
+007-1164-25329,Established Patient,Y,14174.0,-2146.0,Hemophilia A
+007-1234-36508,Established Patient,N,14861.0,6436.0,Hemophilia A
+007-1404-25441,Established Patient,Y,14301.0,74.0,Hemophilia A
+007-1455-37062,New Patient,Y,15104.0,8749.0,Hemophilia A
+007-1561-90709,Established Patient,Y,14567.0,3057.0,Hemophilia A
+007-1638-01833,Established Patient,Y,14831.0,11092.0,Hemophilia B
+007-1710-81674,New Patient,Y,17430.0,3606.0,Hemophilia A
+007-1929-47901,Established Patient,Y,16887.0,12249.0,Hemophilia A
+007-2173-60667,Established Patient,N,14454.0,10697.0,Hemophilia A
+007-2291-90984,Established Patient,Y,14217.0,5705.0,Hemophilia A
+007-2475-70815,Established Patient,Y,14495.0,11793.0,Hemophilia B
+007-2482-31335,Established Patient,Y,14511.0,-382.0,Hemophilia A
+007-2730-49926,Established Patient,Y,15452.0,4610.0,Hemophilia A
+007-2804-46787,Established Patient,Y,14546.0,9907.0,Hemophilia A
+007-2807-08365,Established Patient,N,14740.0,7958.0,Hemophilia A
+007-2864-16149,Established Patient,Y,16726.0,3453.0,Hemophilia A
+007-3026-64001,Established Patient,N,14551.0,11762.0,Hemophilia A
+007-3161-29884,Established Patient,Y,15641.0,3392.0,Hemophilia A
+007-3169-71821,Established Patient,Y,15431.0,-7078.0,Hemophilia A
+007-3351-90258,Established Patient,Y,14203.0,2752.0,Hemophilia A
+007-3541-97404,Established Patient,Y,14482.0,9480.0,Hemophilia A
+007-4062-31749,Established Patient,Y,14224.0,-1326.0,Hemophilia A
+007-4063-58001,Established Patient,Y,15606.0,5858.0,Hemophilia A
+007-4228-99523,Established Patient,Y,14322.0,5462.0,Hemophilia B
+007-4310-49750,Established Patient,N,15293.0,10180.0,Hemophilia A
+007-4504-53968,Established Patient,Y,15874.0,9054.0,Hemophilia A
+007-4623-18893,Established Patient,N,15349.0,8658.0,Hemophilia A
+007-4637-82473,Established Patient,Y,14623.0,7258.0,Hemophilia A
+007-4638-77887,Established Patient,N,14412.0,12219.0,Hemophilia A
+007-4664-46875,Established Patient,Y,14770.0,4032.0,Hemophilia A
+007-4665-14033,Established Patient,Y,16595.0,9815.0,Hemophilia A
+007-5010-49022,Established Patient,N,15725.0,4001.0,Hemophilia A
+007-5641-97058,Established Patient,Y,16152.0,-2726.0,Hemophilia A
+007-5753-29448,Established Patient,N,15231.0,14198.0,Hemophilia A
+007-5774-35975,Transfer Patient,Y,16267.0,12523.0,Hemophilia B
+007-6088-29516,Established Patient,Y,15725.0,6375.0,Hemophilia A
+007-6151-94512,Established Patient,N,16390.0,-8631.0,Hemophilia A
+007-6191-26723,Established Patient,Y,15468.0,11518.0,Hemophilia B
+007-6194-25373,Established,N,15359.0,8658.0,Hemophilia A
+007-6355-58111,Established Patient,Y,15167.0,14290.0,Hemophilia A
+007-6623-60522,Established Patient,Y,15839.0,11946.0,Hemophilia A
+007-6700-49129,Established Patient,Y,14740.0,7685.0,Hemophilia A
+007-6702-67126,Established Patient,N,14461.0,7135.0,Hemophilia A
+007-6831-70793,Established Patient,Y,14374.0,2540.0,Hemophilia A
+007-6835-76663,Established Patient,Y,14355.0,10149.0,Hemophilia A
+007-6990-49491,Established Patient,Y,14621.0,13588.0,Hemophilia A
+007-6994-35748,Established Patient,Y,14621.0,10758.0,Hemophilia A
+007-7000-94780,Established,N,14220.0,13194.0,Hemophilia A
+007-7001-58009,Established Patient,N,17157.0,13802.0,Hemophilia A
+007-7004-64268,Established Patient,Y,17157.0,14471.0,Hemophilia A
+007-7508-30651,Established,N,17244.0,7288.0,Hemophilia A
+007-7533-12500,Established Patient,N,14558.0,12676.0,Hemophilia A
+007-7793-85641,Established,Y,14544.0,10880.0,Hemophilia A
+007-7793-85855,Established Patient,Y,14544.0,9784.0,Hemophilia A
+007-7798-29045,Established Patient,Y,14544.0,12676.0,Hemophilia A
+007-7799-47693,Established Patient,N,14454.0,6985.0,Hemophilia A
+007-7860-94780,Established Patient,N,14220.0,13194.0,Hemophilia A
+007-7874-25881,Established Patient,Y,14482.0,9601.0,Hemophilia B
+007-7972-63536,Established Patient,N,15510.0,9177.0,Hemophilia A
+007-8174-25648,New Patient,N,16777.0,11396.0,Hemophilia A
+007-8676-28647,Established Patient,Y,14831.0,14075.0,Hemophilia B
+007-8751-29278,Established Patient,Y,14406.0,5552.0,Hemophilia A
+007-8758-55106,Established Patient,Y,14203.0,-991.0,Hemophilia A
+007-8820-49981,Established Patient,Y,16593.0,15720.0,Hemophilia A
+007-8862-63307,Established Patient,N,15895.0,10088.0,Hemophilia A
+007-9351-58520,Established Patient,Y,16884.0,9297.0,Hemophilia A
+007-9523-42766,Established Patient,N,14831.0,10057.0,Hemophilia A
+007-9881-04237,Established Patient,N,14586.0,12888.0,Hemophilia A
+007-9895-20917,Established Patient,N,14433.0,11427.0,Hemophilia A
+007-9944-70456,Established Patient,Y,14586.0,11762.0,Hemophilia A
+007-9945-34422,Established Patient,Y,14586.0,12857.0,Hemophilia A
+008-0057-08729,Established Patient,Y,14048.0,7805.0,Hemophilia B
+008-0514-25668,Established Patient,N,15272.0,7166.0,Hemophilia A
+008-1022-63036,Established Patient,Y,14153.0,-1996.0,Hemophilia A
+008-1431-58568,Established Patient,Y,14742.0,13984.0,Hemophilia A
+008-1511-90147,Established Patient,Y,14229.0,-3000.0,Hemophilia B
+008-1516-79734,Established Patient,Y,14340.0,-930.0,Hemophilia B
+008-1584-16604,New Patient,Y,15370.0,-5678.0,Hemophilia B
+008-1588-88463,Established Patient,Y,16296.0,13802.0,Hemophilia B
+008-1888-29121,Established Patient,N,14150.0,7744.0,Hemophilia A
+008-2272-63195,New Patient,Y,14336.0,-4491.0,Hemophilia A
+008-2288-09975,Transfer Patient,Y,15734.0,439.0,Hemophilia A
+008-2343-79936,Established Patient,Y,14180.0,11003.0,Hemophilia B
+008-2427-08004,Transfer Patient,Y,17196.0,8505.0,Hemophilia A
+008-3143-76812,Established Patient,Y,14900.0,14.0,Hemophilia A
+008-3351-58568,Established Patient,Y,14742.0,13984.0,Hemophilia A
+008-3634-25819,Established Patient,Y,14483.0,-4400.0,Hemophilia B
+008-4003-39737,Established Patient,Y,14907.0,14075.0,Hemophilia A
+008-4806-56428,Established Patient,Y,14348.0,166.0,Hemophilia A
+008-6022-50319,Established Patient,Y,14102.0,-5586.0,Hemophilia A
+008-6225-37878,Transfer Patient,Y,15753.0,6102.0,Hemophilia B
+008-6240-49052,Established Patient,Y,14343.0,-17.0,Hemophilia B
+008-6355-13594,Established Patient,Y,14031.0,9419.0,Hemophilia A
+008-6440-36759,Established Patient,Y,14388.0,10972.0,Hemophilia B
+008-6441-68864,Established Patient,Y,14388.0,9723.0,Hemophilia B
+008-6525-58727,Established Patient,Y,14397.0,2357.0,Hemophilia B
+008-6772-02805,Transfer Patient,Y,15095.0,12464.0,Hemophilia A
+008-7607-98667,Established Patient,Y,14056.0,13071.0,Hemophilia A
+008-7688-09880,Established Patient,Y,15917.0,-3334.0,Hemophilia A
+008-7772-63718,Established Patient,N,14133.0,45.0,Hemophilia A
+008-8164-83067,New Patient,Y,17521.0,15751.0,Hemophilia A
+008-8222-58610,Established Patient,Y,14523.0,-3061.0,Hemophilia A
+008-8751-97514,Established Patient,Y,14683.0,-17.0,Hemophilia A
+008-8753-76030,Established Patient,Y,14026.0,1566.0,Hemophilia A
+008-8863-91525,New Patient,Y,14061.0,2783.0,Hemophilia B
+008-8921-97830,Established Patient,Y,14031.0,10546.0,Hemophilia A
+008-9080-35583,Established Patient,N,14014.0,653.0,Hemophilia A
+008-9175-20163,Established Patient,Y,14056.0,12188.0,Hemophilia A
+008-9407-82349,Established Patient,Y,14753.0,5979.0,Hemophilia B
+008-9534-16143,Established Patient,N,14189.0,7013.0,Hemophilia A
+008-9872-24349,Established Patient,Y,14402.0,12158.0,Hemophilia A
+010-0124-25437,Established Patient,N,15554.0,14563.0,Hemophilia A
+010-0661-01256,Established Patient,N,15939.0,14563.0,Hemophilia A
+010-0852-63546,Established Patient,Y,14829.0,7958.0,Hemophilia A
+010-1109-87809,Established Patient,Y,14255.0,-2908.0,Hemophilia A
+010-1294-31805,Established Patient,N,14329.0,11580.0,Hemophilia A
+010-1435-58118,Established Patient,Y,14273.0,11003.0,Hemophilia A
+010-1439-61118,Established Patient,Y,14273.0,11003.0,Hemophilia A
+010-1882-50405,Established Patient,N,15872.0,7379.0,Hemophilia A
+010-1994-65376,Established Patient,Y,14273.0,10546.0,Hemophilia A
+010-2587-82840,Established Patient,Y,14483.0,13132.0,Hemophilia A
+010-2890-49282,Established Patient,Y,16166.0,4671.0,Hemophilia B
+010-3352-63716,Established Patient,Y,16264.0,-9635.0,Hemophilia A
+010-3744-46398,Established Patient,Y,14682.0,1535.0,Hemophilia A
+010-4166-60610,Established Patient,Y,14406.0,12249.0,Hemophilia A
+010-4184-16822,Established Patient,Y,15571.0,7654.0,Hemophilia A
+010-4802-94278,Established Patient,Y,14591.0,-351.0,Hemophilia A
+010-4994-25802,Established Patient,N,14437.0,5705.0,Hemophilia A
+010-5053-85283,Established Patient,Y,14847.0,11702.0,Hemophilia A
+010-5091-84900,Established Patient,Y,15018.0,5371.0,Hemophilia A
+010-5092-63143,Established Patient,Y,14227.0,3210.0,Hemophilia A
+010-5097-95310,Established Patient,Y,14227.0,3606.0,Hemophilia A
+010-5664-35369,Established Patient,N,15540.0,11737.0,Hemophilia B
+010-5669-96094,New Patient,N,15592.0,2326.0,Hemophilia B
+010-5946-91418,Established Patient,N,14847.0,12888.0,Hemophilia A
+010-6648-61920,Established Patient,N,15232.0,11123.0,Hemophilia B
+010-7223-17172,Transfer Patient,Y,15571.0,8323.0,Hemophilia A
+010-7532-72448,Established Patient,N,14227.0,-261.0,Hemophilia A
+010-7979-61265,Established Patient,Y,14367.0,5644.0,Hemophilia A
+010-8335-72579,Established Patient,N,14847.0,13132.0,Hemophilia A
+010-8380-49946,Established Patient,N,13581.0,7410.0,Hemophilia B
+010-9115-82424,Established Patient,N,16334.0,-78.0,Hemophilia A
+010-9307-82295,Established Patient,Y,15876.0,13984.0,Hemophilia A
+010-9521-97100,New Patient,Y,14591.0,1719.0,Hemophilia A
+010-9522-63994,New Patient,Y,14682.0,2114.0,Hemophilia A
+010-9583-76681,Established Patient,Y,15057.0,9450.0,Hemophilia A
+010-9737-32929,Established Patient,Y,14402.0,-1022.0,Hemophilia A
+010-9877-96602,Established Patient,Y,14483.0,13163.0,Hemophilia A
+010-9878-55222,Established Patient,Y,14273.0,9480.0,Hemophilia A
+012-0036-56848,Established Patient,,16068.0,10697.0,Hemophilia A
+012-0487-46251,Established,N,16894.0,15445.0,Hemophilia A
+012-0552-63403,New Patient,Y,16076.0,926.0,Hemophilia A
+012-0557-95686,New Patient,Y,17182.0,561.0,Hemophilia A
+012-0558-02227,Established Patient,Y,16391.0,-2634.0,Hemophilia A
+012-0651-68583,Established Patient,Y,15620.0,13588.0,Hemophilia A
+012-0655-76812,Established Patient,Y,16468.0,6923.0,Hemophilia A
+012-0703-85619,Established Patient,N,16474.0,15414.0,Hemophilia A
+012-0711-97551,Established Patient,Y,16594.0,-4156.0,Hemophilia A
+012-0737-95012,Established Patient,Y,15053.0,11396.0,Hemophilia A
+012-0829-61453,Established Patient,Y,15417.0,10515.0,Hemophilia A
+012-0829-61510,New Patient,Y,16439.0,12311.0,Hemophilia A
+012-0829-61834,Established Patient,Y,14549.0,10515.0,Hemophilia A
+012-0840-36623,Established Patient,N,15144.0,9205.0,Hemophilia A
+012-0874-16280,Established Patient,Y,14899.0,8201.0,Hemophilia A
+012-0878-53273,Established Patient,Y,15417.0,11762.0,Hemophilia A
+012-1009-40426,Established,N,15557.0,11976.0,Hemophilia A
+012-1009-40902,Established Patient,N,15557.0,11976.0,Hemophilia A
+012-1031-45692,Established,Y,17202.0,15840.0,Hemophilia A
+012-1173-76844,Established Patient,Y,14852.0,-5891.0,Hemophilia B
+012-1210-36299,Established,Y,16376.0,10149.0,Hemophilia A
+012-1216-79747,Established Patient,Y,15494.0,11337.0,Hemophilia A
+012-1313-85609,Established Patient,N,16530.0,15779.0,Hemophilia A
+012-1403-76965,Established Patient,N,15767.0,9935.0,Hemophilia A
+012-1453-76486,Established Patient,Y,14535.0,10119.0,Hemophilia A
+012-1454-16709,Established Patient,N,15067.0,12188.0,Hemophilia A
+012-1518-88971,Established,N,17489.0,12553.0,Hemophilia A
+012-1563-60389,Established Patient,Y,14304.0,7775.0,Hemophilia A
+012-1589-55527,Established Patient,N,16272.0,8962.0,Hemophilia A
+012-1637-46470,Established Patient,Y,14276.0,11368.0,Hemophilia A
+012-1637-46545,Established,Y,17139.0,11488.0,Hemophilia A
+012-1644-46499,New Patient,N,17561.0,9450.0,Hemophilia A
+012-1761-97002,Established Patient,Y,16132.0,5858.0,Hemophilia A
+012-1951-94430,Established Patient,Y,14920.0,14167.0,Hemophilia A
+012-2093-20237,Established Patient,N,14731.0,9085.0,Hemophilia A
+012-2170-49318,Established Patient,Y,16804.0,6497.0,Hemophilia B
+012-2176-30534,Established Patient,N,14936.0,-4034.0,Hemophilia A
+012-2218-29260,Established Patient,Y,16468.0,-9635.0,Hemophilia B
+012-2341-94315,Established Patient,Y,16349.0,-11461.0,Hemophilia A
+012-2482-02366,Established Patient,N,16349.0,5736.0,Hemophilia A
+012-2524-66988,New Patient,Y,16503.0,-535.0,Hemophilia A
+012-2584-93607,Established,N,17077.0,9601.0,Hemophilia A
+012-2585-14011,New Patient,N,16072.0,13498.0,Hemophilia A
+012-2668-30862,Established Patient,Y,15886.0,13254.0,Hemophilia A
+012-2668-61087,Established Patient,Y,15886.0,14745.0,Hemophilia A
+012-2733-30018,Established Patient,N,15172.0,14014.0,Hemophilia A
+012-2736-46377,Established Patient,Y,15144.0,7866.0,Hemophilia A
+012-2738-30973,Established Patient,N,16285.0,15202.0,Hemophilia A
+012-2777-82268,Established Patient,Y,15985.0,2387.0,Hemophilia B
+012-2955-58171,New Patient,N,17381.0,11854.0,Hemophilia A
+012-3024-31384,Established Patient,N,14549.0,13710.0,Hemophilia A
+012-3025-58675,Established Patient,Y,14325.0,13010.0,Hemophilia A
+012-3085-13706,Established Patient,N,15690.0,14593.0,Hemophilia B
+012-3169-44153,Established Patient,Y,15284.0,8749.0,Hemophilia A
+012-3188-94329,Established,N,16998.0,15536.0,Hemophilia A
+012-3324-16402,Established Patient,Y,16321.0,1506.0,Hemophilia A
+012-3380-01346,Established Patient,N,16503.0,8384.0,Hemophilia A
+012-3471-97569,Established Patient,Y,14838.0,1322.0,Hemophilia A
+012-3564-25660,Established Patient,N,14276.0,8081.0,Hemophilia A
+012-3568-14278,New Patient,Y,16013.0,-351.0,Hemophilia A
+012-3575-58627,Established Patient,Y,16726.0,15355.0,Hemophilia A
+012-3634-46710,Established Patient,Y,15284.0,14563.0,Hemophilia A
+012-3668-29661,Established Patient,Y,15053.0,13680.0,Hemophilia A
+012-3793-76543,Established Patient,Y,15620.0,14167.0,Hemophilia A
+012-3941-14259,Established Patient,N,14852.0,3027.0,Hemophilia A
+012-4026-39968,Established,N,16937.0,-2452.0,Hemophilia A
+012-4103-76917,Established Patient,Y,15559.0,10576.0,Hemophilia B
+012-4104-25313,Established Patient,Y,15557.0,10332.0,Hemophilia A
+012-4107-74663,Established Patient,N,15480.0,13102.0,Hemophilia A
+012-4167-44129,Established,N,16167.0,7685.0,Hemophilia A
+012-4281-23307,Established,Y,15053.0,13041.0,Hemophilia A
+012-4288-29661,Established,Y,15844.0,13680.0,Hemophilia A
+012-4457-08539,Established,Y,17171.0,-1112.0,Hemophilia A
+012-4601-70385,Established Patient,Y,14817.0,1627.0,Hemophilia A
+012-4620-49140,Established Patient,Y,15130.0,10272.0,Hemophilia A
+012-4623-79711,Established Patient,Y,15130.0,11610.0,Hemophilia A
+012-4624-16169,Established Patient,N,14929.0,74.0,Hemophilia A
+012-4624-53660,Established Patient,Y,16663.0,14259.0,Hemophilia A
+012-4628-09161,New Patient,N,16159.0,11641.0,Hemophilia A
+012-4669-47012,Established Patient,Y,15536.0,14349.0,Hemophilia A
+012-4723-78663,New Patient,N,16922.0,13102.0,Hemophilia B
+012-5057-08172,Established Patient,Y,15643.0,8323.0,Hemophilia B
+012-5164-83597,Transfer Patient,Y,16867.0,7013.0,Hemophilia A
+012-5226-42149,Transfer Pat,Y,17503.0,14959.0,Hemophilia A
+012-5230-08039,Established Patient,N,14647.0,10057.0,Hemophilia A
+012-5230-08221,Established Patient,N,15431.0,10057.0,Hemophilia A
+012-5231-23307,Established Patient,Y,15053.0,13041.0,Hemophilia A
+012-5233-89590,Established Patient,N,14999.0,288.0,Hemophilia A
+012-5237-98811,Established Patient,Y,16503.0,5644.0,Hemophilia A
+012-5298-29346,Established Patient,Y,15550.0,14563.0,Hemophilia A
+012-5298-54919,Established Patient,N,15641.0,10850.0,Hemophilia A
+012-5401-97062,Established Patient,N,16076.0,-382.0,Hemophilia A
+012-5415-70719,Established Patient,Y,16111.0,5644.0,Hemophilia A
+012-5432-63031,Established Patient,Y,15739.0,10972.0,Hemophilia B
+012-5612-72493,Established Patient,Y,16594.0,-1447.0,Hemophilia B
+012-5645-14793,Established Patient,N,15921.0,9570.0,Hemophilia A
+012-5645-58547,Established Patient,Y,15557.0,9570.0,Hemophilia A
+012-5734-49098,Established Patient,Y,14745.0,10576.0,Hemophilia A
+012-5768-09101,Established Patient,Y,14563.0,7897.0,Hemophilia A
+012-5779-49964,Established,Y,17041.0,15840.0,Hemophilia B
+012-5820-55264,Established Patient,N,16103.0,15355.0,Hemophilia A
+012-5864-53754,New Patient,Y,16391.0,-1934.0,Hemophilia A
+012-5924-73913,Established Patient,Y,16272.0,2326.0,Hemophilia B
+012-5954-49743,Established Patient,Y,14521.0,10515.0,Hemophilia A
+012-5962-02515,Established Patient,Y,15802.0,12280.0,Hemophilia A
+012-6049-47390,Established Patient,Y,15431.0,13953.0,Hemophilia A
+012-6167-95090,Established Patient,Y,16425.0,12068.0,Hemophilia A
+012-6196-24762,Established Patient,N,14843.0,10088.0,Hemophilia B
+012-6229-15510,Established Patient,Y,16223.0,-47.0,Hemophilia A
+012-6340-49882,Established Patient,Y,15249.0,9876.0,Hemophilia A
+012-6353-76515,Established Patient,N,15130.0,12280.0,Hemophilia B
+012-6441-94204,Established Patient,N,16111.0,4853.0,Hemophilia B
+012-6449-55590,Established Patient,Y,16559.0,7350.0,Hemophilia A
+012-6449-61703,Transfer Pat,Y,17077.0,8719.0,Hemophilia A
+012-6563-52805,Established Patient,N,16349.0,6255.0,Hemophilia A
+012-6587-82692,Established Patient,Y,14339.0,12311.0,Hemophilia A
+012-6713-60701,Established Patient,N,15235.0,9297.0,Hemophilia A
+012-6781-70946,New Patient,Y,16685.0,7410.0,Hemophilia A
+012-6783-78210,Established Patient,N,16041.0,-1934.0,Hemophilia A
+012-6834-01722,Established Patient,Y,15102.0,12099.0,Hemophilia A
+012-6903-86062,Established Patient,N,14563.0,12553.0,Hemophilia A
+012-6911-90741,New Patient,Y,17561.0,-3638.0,Hemophilia B
+012-6918-30799,Established Patient,Y,16831.0,15720.0,Hemophilia B
+012-7008-02669,Established Patient,Y,15951.0,74.0,Hemophilia B
+012-7193-78210,Established,N,16041.0,-1934.0,Hemophilia A
+012-7370-49434,Established Patient,Y,14859.0,-3669.0,Hemophilia B
+012-7374-16406,Established Patient,Y,16195.0,-2330.0,Hemophilia B
+012-7382-02463,Established,N,17206.0,2296.0,Hemophilia A
+012-7390-49007,Established Patient,Y,14276.0,10576.0,Hemophilia A
+012-7391-97775,Established Patient,Y,16559.0,865.0,Hemophilia B
+012-7398-09122,Established Patient,N,15648.0,10119.0,Hemophilia A
+012-7534-66128,Established Patient,Y,16313.0,12737.0,Hemophilia A
+012-7535-14011,New Patient,N,16103.0,13498.0,Hemophilia A
+012-7536-64027,Established Patient,Y,16313.0,13102.0,Hemophilia A
+012-7551-84053,Established Patient,N,16076.0,6436.0,Hemophilia A
+012-7553-85211,Established Patient,N,14684.0,7471.0,Hemophilia A
+012-7577-82866,Established Patient,N,15690.0,9419.0,Hemophilia A
+012-7584-46802,Established Patient,Y,16131.0,12464.0,Hemophilia B
+012-7684-46319,Established Patient,N,15536.0,13529.0,Hemophilia A
+012-7689-58319,Established Patient,N,15536.0,13529.0,Hemophilia A
+012-7855-13359,Established Patient,Y,15767.0,14471.0,Hemophilia A
+012-7885-34054,Established Patient,N,15767.0,9662.0,Hemophilia A
+012-7947-82901,Established Patient,N,16503.0,-6713.0,Hemophilia A
+012-8054-25885,Established Patient,Y,15620.0,11946.0,Hemophilia A
+012-8073-29118,Established Patient,Y,16439.0,13953.0,Hemophilia A
+012-8114-46280,New Patient,Y,16468.0,-930.0,Hemophilia A
+012-8176-39049,Established,N,16559.0,-5040.0,Hemophilia A
+012-8176-39871,Established Patient,N,16559.0,-5040.0,Hemophilia A
+012-8328-61092,Established Patient,N,16775.0,11762.0,Hemophilia A
+012-8520-53600,Established Patient,Y,14766.0,9662.0,Hemophilia B
+012-8522-24468,Established Patient,N,15189.0,14045.0,Hemophilia A
+012-8579-49786,Established Patient,Y,16145.0,14959.0,Hemophilia A
+012-8611-78150,Established Patient,Y,15739.0,14959.0,Hemophilia A
+012-8672-16837,Established Patient,Y,15053.0,10210.0,Hemophilia A
+012-8754-16268,Established,Y,17252.0,2387.0,Hemophilia A
+012-8794-35456,Established Patient,Y,14731.0,14137.0,Hemophilia A
+012-8895-70929,New Patient,Y,16399.0,14290.0,Hemophilia B
+012-8978-29256,Established Patient,N,16013.0,105.0,Hemophilia A
+012-9034-35782,Established Patient,Y,15207.0,9085.0,Hemophilia A
+012-9465-58909,Established Patient,Y,16559.0,-596.0,Hemophilia A
+012-9475-70816,Established Patient,N,14852.0,2661.0,Hemophilia A
+012-9530-49433,Established Patient,Y,15872.0,12219.0,Hemophilia A
+012-9542-43540,Established Patient,Y,16355.0,14471.0,Hemophilia A
+012-9565-65654,New Patient,N,16040.0,10210.0,Hemophilia A
+012-9571-01298,Established Patient,N,14304.0,6193.0,Hemophilia A
+012-9637-80529,New Patient,N,17568.0,6283.0,Hemophilia A
+012-9707-32063,New Patient,Y,16741.0,3698.0,Hemophilia A
+012-9735-70109,New Patient,Y,16056.0,10788.0,Hemophilia B
+012-9821-29402,Established Patient,Y,16474.0,10057.0,Hemophilia A
+012-9821-58867,Established Patient,Y,14766.0,12645.0,Hemophilia B
+012-9824-16819,Established Patient,Y,16474.0,10911.0,Hemophilia A
+012-9829-47502,New Patient,Y,16789.0,12949.0,Hemophilia B
+012-9880-94955,Established Patient,N,14929.0,3545.0,Hemophilia A
+012-9991-90057,Established Patient,Y,15872.0,12584.0,Hemophilia A
+012-9994-46839,Established Patient,Y,15872.0,10485.0,Hemophilia A
+012-9995-37379,Established Patient,Y,15872.0,11368.0,Hemophilia A
+021-0138-25855,Established Patient,Y,14768.0,12737.0,Hemophilia A
+021-0557-32184,Established Patient,Y,14642.0,11184.0,Hemophilia A
+021-0560-41927,Established Patient,Y,15097.0,7836.0,Hemophilia A
+021-0656-38455,Established Patient,N,15083.0,13863.0,Hemophilia A
+021-0688-67252,Established Patient,Y,14565.0,9542.0,Hemophilia B
+021-0761-90060,Established Patient,Y,14481.0,9907.0,Hemophilia A
+021-0762-83681,Established Patient,Y,14481.0,10301.0,Hemophilia A
+021-0840-43223,Established Patient,Y,14593.0,9480.0,Hemophilia B
+021-0846-91223,Established,Y,14593.0,9480.0,Hemophilia B
+021-0916-64562,Established Patient,Y,14684.0,13741.0,Hemophilia A
+021-1005-21779,Established Patient,Y,14537.0,12918.0,Hemophilia A
+021-1340-03943,Established Patient,N,14481.0,10088.0,Hemophilia A
+021-1583-85467,Established Patient,N,14446.0,7593.0,Hemophilia A
+021-1604-46721,Established Patient,N,15356.0,14167.0,Hemophilia A
+021-1648-61273,Established Patient,Y,16700.0,13863.0,Hemophilia B
+021-1648-61637,Established,Y,16700.0,13863.0,Hemophilia B
+021-1813-29827,Established Patient,N,15013.0,11702.0,Hemophilia A
+021-1876-43591,Established Patient,N,14901.0,9723.0,Hemophilia A
+021-2037-82870,Established,Y,17260.0,16145.0,Hemophilia A
+021-2171-70365,Established Patient,Y,14488.0,8109.0,Hemophilia A
+021-2171-70746,Established,Y,17149.0,8109.0,Hemophilia A
+021-2173-30372,Established Patient,N,14579.0,13802.0,Hemophilia A
+021-2174-41858,Established,N,16728.0,15659.0,Hemophilia A
+021-2175-02522,Established Patient,Y,14502.0,11946.0,Hemophilia A
+021-2178-61325,Established Patient,Y,14978.0,9389.0,Hemophilia A
+021-2194-35571,Established,Y,17027.0,16054.0,Hemophilia A
+021-2201-53823,Established Patient,Y,14446.0,10880.0,Hemophilia A
+021-2405-14547,Established Patient,Y,15587.0,14715.0,Hemophilia A
+021-2530-94481,Established Patient,Y,14768.0,13953.0,Hemophilia A
+021-2583-60160,Established Patient,Y,16483.0,15445.0,Hemophilia A
+021-2584-66078,Established Patient,N,15356.0,14532.0,Hemophilia A
+021-2588-29074,Established Patient,Y,15601.0,14563.0,Hemophilia A
+021-2588-29892,Established,Y,15601.0,14563.0,Hemophilia A
+021-2762-16507,Established Patient,Y,14446.0,10241.0,Hemophilia A
+021-2870-03144,Established Patient,Y,16168.0,13194.0,Hemophilia A
+021-2877-63543,Established Patient,Y,16168.0,14167.0,Hemophilia A
+021-3051-70321,Established Patient,Y,14719.0,9996.0,Hemophilia A
+021-3065-51060,Established Patient,Y,14488.0,12857.0,Hemophilia A
+021-3211-50612,Established Patient,N,16651.0,15751.0,Hemophilia A
+021-3293-76996,Established Patient,N,14502.0,11793.0,Hemophilia A
+021-3350-36598,Established Patient,Y,14824.0,9389.0,Hemophilia A
+021-3358-30888,Established Patient,N,14705.0,9266.0,Hemophilia A
+021-3387-75591,Transfer Patient,Y,14481.0,12676.0,Hemophilia A
+021-3389-73185,Established Patient,Y,15265.0,14410.0,Hemophilia A
+021-3544-00989,Established Patient,N,14782.0,11854.0,Hemophilia A
+021-3741-97496,Established Patient,Y,15013.0,12706.0,Hemophilia A
+021-3744-14328,Established Patient,Y,14593.0,12037.0,Hemophilia A
+021-3748-02022,Established Patient,Y,14915.0,13984.0,Hemophilia A
+021-4102-63518,Established Patient,N,14670.0,9876.0,Hemophilia A
+021-4106-22987,Established Patient,N,14768.0,11580.0,Hemophilia A
+021-4289-47972,Established Patient,Y,16819.0,15779.0,Hemophilia A
+021-4487-44851,Established Patient,Y,15587.0,12767.0,Hemophilia A
+021-4489-43195,Established Patient,Y,15585.0,12099.0,Hemophilia A
+021-4620-36203,Established Patient,Y,15223.0,10758.0,Hemophilia A
+021-4659-58552,Established Patient,N,14460.0,10576.0,Hemophilia A
+021-4659-58567,Established,N,14468.0,10758.0,Hemophilia A
+021-4880-24097,Established,Y,15251.0,14106.0,Hemophilia A
+021-4880-24564,Transfer Patient,Y,15251.0,14106.0,Hemophilia A
+021-4886-79314,Transfer Patient,Y,15251.0,11368.0,Hemophilia A
+021-4886-79743,Established,Y,15251.0,11368.0,Hemophilia A
+021-4910-49276,Established Patient,Y,14670.0,11457.0,Hemophilia A
+021-4914-31875,Established Patient,Y,14670.0,13163.0,Hemophilia A
+021-4946-64863,Established Patient,Y,14747.0,12676.0,Hemophilia B
+021-5367-32016,Established Patient,N,14796.0,7563.0,Hemophilia B
+021-5368-99263,Established Patient,N,15314.0,12127.0,Hemophilia A
+021-5460-49983,Established Patient,N,14593.0,11610.0,Hemophilia B
+021-5490-49084,Established Patient,Y,14579.0,12553.0,Hemophilia A
+021-5490-49607,Established,Y,14579.0,12553.0,Hemophilia A
+021-5512-27418,Established Patient,Y,14488.0,12037.0,Hemophilia A
+021-5515-88694,Established Patient,Y,14488.0,12584.0,Hemophilia A
+021-5755-58314,Established Patient,Y,14579.0,13560.0,Hemophilia A
+021-5861-58770,Established Patient,Y,14460.0,10027.0,Hemophilia A
+021-5868-29285,Established Patient,Y,14460.0,11396.0,Hemophilia A
+021-5871-01811,Established Patient,Y,14460.0,8596.0,Hemophilia A
+021-5965-58092,Established Patient,N,14446.0,10911.0,Hemophilia A
+021-6062-31859,Established Patient,Y,14593.0,9754.0,Hemophilia A
+021-6065-24147,Established Patient,Y,16728.0,9085.0,Hemophilia B
+021-6068-05777,Established Patient,Y,14642.0,9692.0,Hemophilia B
+021-6069-61859,Established,Y,14593.0,9754.0,Hemophilia A
+021-6194-16168,Established Patient,Y,14719.0,8354.0,Hemophilia B
+021-6422-63763,Established Patient,Y,14705.0,10362.0,Hemophilia A
+021-6445-58402,Established Patient,N,15055.0,7685.0,Hemophilia B
+021-6936-98758,Established Patient,Y,14565.0,13071.0,Hemophilia A
+021-6938-54223,Established,Y,17155.0,12706.0,Hemophilia A
+021-7061-43205,Established Patient,Y,14705.0,10180.0,Hemophilia A
+021-7062-67453,Established Patient,Y,14537.0,11123.0,Hemophilia A
+021-7067-97899,Established Patient,Y,14992.0,14167.0,Hemophilia A
+021-7085-13132,Established Patient,Y,14502.0,13560.0,Hemophilia A
+021-7107-48837,Established Patient,Y,14992.0,14014.0,Hemophilia B
+021-7109-34846,Established Patient,Y,14642.0,11003.0,Hemophilia A
+021-7287-75834,Established Patient,Y,15433.0,8415.0,Hemophilia A
+021-7321-50486,Established Patient,Y,14656.0,13925.0,Hemophilia A
+021-7501-01457,Established Patient,N,15811.0,14990.0,Hemophilia A
+021-8173-70204,Established Patient,Y,15069.0,13132.0,Hemophilia A
+021-8178-59753,Established Patient,Y,15069.0,10727.0,Hemophilia A
+021-8415-26860,Established Patient,N,14929.0,9754.0,Hemophilia B
+021-8419-47293,Established Patient,Y,15391.0,14290.0,Hemophilia B
+021-8467-27215,Established Patient,N,14642.0,12767.0,Hemophilia B
+021-8728-29379,Transfer Patient,N,15741.0,11092.0,Hemophilia B
+021-8810-08155,New Patient,N,16028.0,9876.0,Hemophilia B
+021-8853-65224,Established,Y,17141.0,15932.0,Hemophilia A
+021-8858-59820,Established,Y,17141.0,14990.0,Hemophilia A
+021-8864-53075,Established Patient,Y,14481.0,11610.0,Hemophilia A
+021-9030-49848,Established,Y,16700.0,10697.0,Hemophilia A
+021-9039-94409,Established,Y,17337.0,12676.0,Hemophilia A
+021-9128-05515,Established,Y,16845.0,16085.0,Hemophilia A
+021-9480-96100,New Patient,N,15923.0,11702.0,Hemophilia A
+021-9585-58393,Established Patient,N,14593.0,10697.0,Hemophilia B
+021-9718-54223,Established Patient,Y,14565.0,12706.0,Hemophilia A
+028-0072-02238,Established Patient,Y,15305.0,12311.0,Hemophilia A
+028-0075-72860,Established Patient,Y,15305.0,9754.0,Hemophilia A
+028-0083-12321,Established Patient,N,14742.0,13223.0,Hemophilia A
+028-0100-12637,Established Patient,Y,14794.0,10911.0,Hemophilia A
+028-0140-36208,Established Patient,Y,14875.0,10727.0,Hemophilia A
+028-0188-99162,Established Patient,Y,15910.0,14868.0,Hemophilia B
+028-0401-94803,Established,N,16631.0,8932.0,Hemophilia A
+028-0413-12864,Established Patient,Y,14710.0,13529.0,Hemophilia A
+028-0705-20787,Established Patient,Y,14794.0,12857.0,Hemophilia A
+028-0714-53304,Established Patient,Y,14641.0,13345.0,Hemophilia A
+028-0875-20640,Established Patient,N,15190.0,14410.0,Hemophilia A
+028-0894-46633,Established Patient,Y,15004.0,14167.0,Hemophilia A
+028-0928-88220,New Patient,Y,16994.0,15963.0,Hemophilia B
+028-0972-63099,Established Patient,Y,14619.0,10576.0,Hemophilia A
+028-1105-20071,Established Patient,N,14594.0,11915.0,Hemophilia A
+028-1108-09569,Established Patient,Y,14885.0,11031.0,Hemophilia A
+028-1585-97189,Established Patient,N,14391.0,8201.0,Hemophilia A
+028-1678-09065,Established Patient,Y,14755.0,12523.0,Hemophilia A
+028-1814-25295,Established Patient,N,15720.0,10180.0,Hemophilia B
+028-1817-23726,Established,N,16131.0,15021.0,Hemophilia A
+028-1818-01189,New,Y,16289.0,11153.0,Hemophilia B
+028-1874-53027,Established Patient,N,14560.0,13376.0,Hemophilia A
+028-2033-08301,Established Patient,Y,15193.0,10423.0,Hemophilia B
+028-2034-25510,Established Patient,Y,14808.0,9085.0,Hemophilia B
+028-2035-58991,Established,Y,16477.0,15355.0,Hemophilia A
+028-2184-49670,Transfer Patient,Y,15354.0,13619.0,Hemophilia A
+028-2264-46747,Established,Y,17170.0,14290.0,Hemophilia A
+028-2374-02781,Established Patient,Y,14459.0,9662.0,Hemophilia B
+028-2377-48293,Established Patient,Y,15287.0,14290.0,Hemophilia A
+028-2378-02781,Established,Y,14459.0,9662.0,Hemophilia B
+028-2534-83100,Established Patient,Y,14557.0,11702.0,Hemophilia A
+028-2623-35027,Established Patient,N,14424.0,11003.0,Hemophilia A
+028-2775-20384,Established,N,16251.0,10485.0,Hemophilia A
+028-2860-53605,Established Patient,Y,15727.0,14959.0,Hemophilia B
+028-2897-08121,New Patient,Y,16811.0,16024.0,Hemophilia A
+028-2934-41701,Established Patient,Y,14670.0,12249.0,Hemophilia A
+028-3053-76793,New Patient,Y,16509.0,15475.0,Hemophilia A
+028-3064-35539,New Patient,Y,16672.0,14198.0,Hemophilia B
+028-3128-09082,Established,Y,14872.0,11549.0,Hemophilia A
+028-3181-58136,Established Patient,Y,14740.0,9450.0,Hemophilia B
+028-3358-61156,Established Patient,N,14515.0,12249.0,Hemophilia B
+028-3540-24011,Established Patient,N,14399.0,13498.0,Hemophilia B
+028-3560-49903,Established,Y,16299.0,12099.0,Hemophilia B
+028-3593-76897,Established Patient,Y,14391.0,8627.0,Hemophilia A
+028-3648-54925,Established Patient,Y,14599.0,10515.0,Hemophilia A
+028-3672-31857,Established Patient,N,14727.0,10057.0,Hemophilia A
+028-3673-85536,Established Patient,Y,15389.0,8323.0,Hemophilia A
+028-3700-55766,Established Patient,N,14640.0,13010.0,Hemophilia B
+028-3896-67734,Established Patient,Y,14641.0,8201.0,Hemophilia A
+028-3901-70542,Established Patient,Y,14854.0,8840.0,Hemophilia A
+028-3994-53354,Established Patient,N,14648.0,11276.0,Hemophilia A
+028-4054-49009,Established Patient,N,14637.0,11702.0,Hemophilia B
+028-4069-22128,Established Patient,N,14837.0,6558.0,Hemophilia A
+028-4105-58753,Established,N,16364.0,10727.0,Hemophilia A
+028-4394-88791,Established Patient,N,15096.0,9876.0,Hemophilia A
+028-4401-58857,Established Patient,Y,15522.0,10057.0,Hemophilia A
+028-4460-43358,Established Patient,N,14621.0,12099.0,Hemophilia B
+028-4721-94841,Established Patient,Y,14921.0,13132.0,Hemophilia B
+028-4883-65737,Transfer Patient,Y,15354.0,11702.0,Hemophilia A
+028-4884-49565,Established Patient,Y,14755.0,11337.0,Hemophilia A
+028-4933-64235,Established Patient,N,14423.0,10241.0,Hemophilia B
+028-4937-08566,Established Patient,Y,14885.0,11337.0,Hemophilia A
+028-5057-08354,Established Patient,N,14896.0,8323.0,Hemophilia B
+028-5120-36445,Established,N,16287.0,11276.0,Hemophilia A
+028-5334-16518,Established Patient,Y,14599.0,9876.0,Hemophilia A
+028-5334-16973,Established,Y,14599.0,9876.0,Hemophilia A
+028-5807-82418,Established Patient,Y,15879.0,12037.0,Hemophilia A
+028-6043-76128,Established Patient,Y,14784.0,12737.0,Hemophilia B
+028-6064-31791,Established Patient,Y,14906.0,12249.0,Hemophilia B
+028-6355-13487,New,N,16617.0,13345.0,Hemophilia A
+028-6411-29111,Established Patient,N,14773.0,7532.0,Hemophilia A
+028-6424-65252,Established Patient,Y,14416.0,11641.0,Hemophilia A
+028-6440-67844,Established Patient,Y,15403.0,13102.0,Hemophilia B
+028-6449-47223,Established Patient,Y,15403.0,12706.0,Hemophilia A
+028-6517-84816,Established,Y,16754.0,15021.0,Hemophilia A
+028-6603-76880,Transfer Patient,Y,14773.0,12553.0,Hemophilia A
+028-6608-09630,Transfer Patient,Y,14773.0,11245.0,Hemophilia A
+028-6622-24909,Established Patient,Y,14514.0,10911.0,Hemophilia A
+028-6624-49513,Established Patient,Y,14514.0,9631.0,Hemophilia A
+028-6752-02643,Established Patient,Y,14809.0,11153.0,Hemophilia A
+028-6829-47406,Established Patient,Y,14822.0,9754.0,Hemophilia A
+028-7008-54314,Established Patient,Y,15327.0,9754.0,Hemophilia A
+028-7053-42899,Established Patient,N,15858.0,15080.0,Hemophilia A
+028-7064-53853,Established Patient,N,14504.0,7716.0,Hemophilia A
+028-7085-20255,Established Patient,N,14928.0,12553.0,Hemophilia A
+028-7225-14483,New Patient,N,16863.0,13649.0,Hemophilia A
+028-7241-90747,Established Patient,Y,14459.0,11062.0,Hemophilia B
+028-7264-46971,Established Patient,Y,14578.0,8749.0,Hemophilia A
+028-7339-49929,Established Patient,N,14413.0,10485.0,Hemophilia A
+028-7400-44456,Established,Y,14396.0,10911.0,Hemophilia B
+028-7464-49480,Established Patient,Y,14775.0,13680.0,Hemophilia A
+028-7577-17853,Established Patient,N,14594.0,10088.0,Hemophilia A
+028-7615-99816,Established Patient,Y,14784.0,11215.0,Hemophilia A
+028-7666-85951,Established Patient,Y,14689.0,12706.0,Hemophilia A
+028-7689-65082,Established Patient,Y,14872.0,11549.0,Hemophilia A
+028-7863-76156,Established Patient,Y,15501.0,9389.0,Hemophilia A
+028-7864-41911,Established Patient,Y,15774.0,14990.0,Hemophilia A
+028-7866-91111,Established Patient,Y,15501.0,10485.0,Hemophilia A
+028-7881-79571,Established Patient,Y,14914.0,13802.0,Hemophilia B
+028-7992-63723,Established Patient,Y,15376.0,14471.0,Hemophilia A
+028-8044-25174,Established Patient,Y,14794.0,8596.0,Hemophilia B
+028-8051-01851,Established Patient,Y,14458.0,13345.0,Hemophilia A
+028-8405-13095,Established Patient,N,14558.0,13833.0,Hemophilia A
+028-8978-29437,Established Patient,Y,14592.0,12188.0,Hemophilia A
+028-9033-42748,Established Patient,Y,14850.0,13710.0,Hemophilia B
+028-9039-49814,Established Patient,Y,15200.0,14471.0,Hemophilia B
+028-9048-66329,Established,N,16869.0,15263.0,Hemophilia A
+028-9058-61910,Established,N,15767.0,14715.0,Hemophilia A
+028-9070-49282,Established Patient,Y,14637.0,7897.0,Hemophilia A
+028-9078-29643,Established Patient,Y,14637.0,11153.0,Hemophilia A
+028-9222-31117,Established Patient,N,14605.0,13102.0,Hemophilia A
+028-9291-90646,Transfer Patient,Y,15330.0,11702.0,Hemophilia A
+028-9298-30305,Transfer Patient,Y,15330.0,12767.0,Hemophilia A
+028-9300-36145,Established Patient,Y,14636.0,9662.0,Hemophilia A
+028-9303-17937,New,N,16469.0,13376.0,Hemophilia A
+028-9391-94176,Established,N,17091.0,11245.0,Hemophilia B
+028-9401-79776,New Patient,Y,17300.0,10272.0,Hemophilia A
+028-9415-37410,Established Patient,Y,14872.0,13529.0,Hemophilia B
+028-9475-26800,Established Patient,Y,14594.0,12188.0,Hemophilia A
+028-9534-49658,Established Patient,Y,15309.0,10758.0,Hemophilia B
+028-9647-61971,Established Patient,N,15923.0,14929.0,Hemophilia A
+028-9698-29367,Established,Y,16145.0,14410.0,Hemophilia A
+028-9700-36932,Established Patient,Y,14900.0,7227.0,Hemophilia B
+028-9708-99903,Established Patient,Y,14865.0,8293.0,Hemophilia B
+028-9783-12667,Established Patient,N,14760.0,10119.0,Hemophilia A
+028-9820-49593,New Patient,Y,15004.0,9996.0,Hemophilia A
+028-9834-25913,Established Patient,Y,14707.0,8505.0,Hemophilia B
+028-9872-43052,New Patient,Y,17056.0,16145.0,Hemophilia A
+028-9873-85472,Established,N,16145.0,8415.0,Hemophilia A
+028-9887-40225,Established Patient,Y,14893.0,10027.0,Hemophilia A
+028-9922-63104,Established Patient,N,14781.0,8446.0,Hemophilia A
+028-9947-08738,Established Patient,Y,14636.0,11123.0,Hemophilia A
+028-9960-49325,Established,N,16380.0,9389.0,Hemophilia A
+052-0177-17449,New Patient,Y,14991.0,8293.0,Hemophilia A
+052-0313-21279,Established Patient,Y,14732.0,-1203.0,Hemophilia A
+052-0396-39862,Established Patient,Y,14515.0,13254.0,Hemophilia A
+052-0467-08531,Established Patient,N,14620.0,-3153.0,Hemophilia A
+052-0503-60881,Transfer Patient,Y,14249.0,8993.0,Hemophilia A
+052-0847-08049,Established Patient,Y,14459.0,9419.0,Hemophilia A
+052-0851-58554,Established Patient,Y,14347.0,5524.0,Hemophilia A
+052-0888-29317,Established Patient,N,14074.0,12402.0,Hemophilia A
+052-0948-02108,Established Patient,Y,14123.0,7563.0,Hemophilia A
+052-1020-49156,Established Patient,Y,14095.0,11671.0,Hemophilia A
+052-1020-49163,Established Patient,N,14088.0,8962.0,Hemophilia A
+052-1024-41796,Established Patient,Y,15943.0,15171.0,Hemophilia A
+052-1024-58068,New Patient,Y,17273.0,15171.0,Hemophilia A
+052-1024-77455,Established Patient,Y,14606.0,13863.0,Hemophilia A
+052-1180-51837,Transfer Patient,Y,14984.0,13437.0,Hemophilia B
+052-1182-63384,Established Patient,N,14088.0,11337.0,Hemophilia A
+052-1218-54500,Established Patient,Y,14109.0,7350.0,Hemophilia A
+052-1229-15819,Established Patient,N,14193.0,-3548.0,Hemophilia A
+052-1233-76695,Transfer Pat,N,16874.0,2875.0,Hemophilia A
+052-1272-63487,Established Patient,N,14102.0,12767.0,Hemophilia A
+052-1400-37694,Transfer Pat,Y,17269.0,3453.0,Hemophilia A
+052-1410-49886,Established Patient,N,14032.0,8993.0,Hemophilia A
+052-1524-49285,Established Patient,N,14193.0,8446.0,Hemophilia A
+052-1591-58580,Established Patient,Y,14564.0,6862.0,Hemophilia A
+052-1766-08284,Established Patient,N,14872.0,6558.0,Hemophilia A
+052-1854-16178,Established Patient,Y,15628.0,14745.0,Hemophilia A
+052-1870-53900,Established Patient,N,14382.0,-3760.0,Hemophilia B
+052-1928-14813,Established Patient,,14053.0,2967.0,Hemophilia A
+052-1962-83033,Established Patient,Y,14207.0,9815.0,Hemophilia A
+052-1968-30102,Established Patient,N,14459.0,5218.0,Hemophilia A
+052-2051-90607,Established Patient,Y,14718.0,9327.0,Hemophilia A
+052-2052-63366,Established Patient,N,14718.0,8811.0,Hemophilia A
+052-2095-51308,Established Patient,Y,14410.0,957.0,Hemophilia A
+052-2161-97307,Established Patient,Y,14312.0,9815.0,Hemophilia A
+052-2235-37711,Established Patient,N,14172.0,11610.0,Hemophilia A
+052-2238-09428,Established Patient,Y,14172.0,12249.0,Hemophilia A
+052-2427-08004,Established Patient,N,14067.0,8505.0,Hemophilia A
+052-2530-55556,Established Patient,N,16650.0,8170.0,Hemophilia A
+052-2538-55110,Established Patient,Y,15061.0,14014.0,Hemophilia A
+052-2589-47336,Established,Y,17399.0,15779.0,Hemophilia A
+052-2733-85482,Established Patient,Y,14144.0,8050.0,Hemophilia A
+052-2734-46966,Established Patient,Y,14144.0,12311.0,Hemophilia A
+052-2735-14487,Established Patient,Y,14144.0,7471.0,Hemophilia A
+052-2876-99196,Established Patient,N,16034.0,7775.0,Hemophilia A
+052-2876-99480,Established,N,16034.0,7775.0,Hemophilia A
+052-3092-24961,Established Patient,N,14459.0,9115.0,Hemophilia A
+052-3094-25935,Established,N,14298.0,13102.0,Hemophilia A
+052-3270-36355,Established Patient,Y,15257.0,6224.0,Hemophilia A
+052-3331-97030,Established Patient,Y,14298.0,-1387.0,Hemophilia B
+052-3434-16893,Established Patient,N,14081.0,11884.0,Hemophilia A
+052-3542-51004,Established Patient,Y,15796.0,5552.0,Hemophilia B
+052-3876-64068,Established Patient,Y,14109.0,8993.0,Hemophilia A
+052-3877-73437,Established Patient,Y,14109.0,5432.0,Hemophilia A
+052-3884-16573,Established Patient,Y,14375.0,1018.0,Hemophilia A
+052-3889-45259,Established,N,14200.0,8354.0,Hemophilia A
+052-3926-20801,Established Patient,N,14074.0,-6075.0,Hemophilia A
+052-4006-79009,Established,Y,14802.0,13802.0,Hemophilia A
+052-4006-79917,Established Patient,Y,14802.0,13802.0,Hemophilia A
+052-4119-47011,Established Patient,Y,14781.0,13498.0,Hemophilia A
+052-4421-58339,Established Patient,Y,14291.0,9570.0,Hemophilia A
+052-4469-47317,Established Patient,Y,14151.0,9450.0,Hemophilia A
+052-4614-77359,Established Patient,N,14158.0,11518.0,Hemophilia A
+052-4622-16953,Established Patient,Y,14291.0,9450.0,Hemophilia A
+052-4628-30938,Established Patient,Y,14291.0,10423.0,Hemophilia A
+052-4883-85000,Established Patient,Y,14368.0,-4400.0,Hemophilia A
+052-4911-26113,Established Patient,Y,14137.0,4001.0,Hemophilia A
+052-5153-58975,Transfer Patient,N,14151.0,8719.0,Hemophilia A
+052-5157-82623,Established Patient,N,14123.0,9205.0,Hemophilia A
+052-5162-63649,Established Patient,N,14214.0,4641.0,Hemophilia A
+052-5193-35007,Established Patient,Y,14109.0,8201.0,Hemophilia B
+052-5205-14452,Established Patient,N,14067.0,11215.0,Hemophilia A
+052-5206-79178,Established Patient,N,14067.0,8566.0,Hemophilia A
+052-5232-63825,Established Patient,Y,14032.0,11153.0,Hemophilia A
+052-5344-25935,Established Patient,N,14298.0,13102.0,Hemophilia A
+052-5463-91559,Established Patient,Y,14060.0,5493.0,Hemophilia A
+052-5524-46522,Established Patient,Y,14844.0,9570.0,Hemophilia B
+052-5730-36812,Established Patient,N,15264.0,14198.0,Hemophilia A
+052-5794-16151,Established Patient,N,14354.0,6102.0,Hemophilia A
+052-5834-16835,Established Patient,N,16475.0,13741.0,Hemophilia A
+052-5867-74687,Established Patient,Y,14291.0,9115.0,Hemophilia A
+052-5907-64335,Established Patient,Y,16013.0,470.0,Hemophilia A
+052-5993-85014,Established Patient,N,14088.0,7288.0,Hemophilia B
+052-6001-70525,Transfer Patient,Y,15614.0,12492.0,Hemophilia A
+052-6001-70707,Transfer Pat,Y,15614.0,12492.0,Hemophilia A
+052-6044-16634,Transfer Patient,N,16447.0,8840.0,Hemophilia A
+052-6184-19922,Transfer Pat,Y,17322.0,14624.0,Hemophilia A
+052-6338-15667,Established Patient,Y,14515.0,988.0,Hemophilia A
+052-6341-90945,Established Patient,Y,14179.0,1230.0,Hemophilia A
+052-6367-66642,Established Patient,N,14928.0,14106.0,Hemophilia A
+052-6441-01041,Transfer Patient,N,16510.0,7379.0,Hemophilia A
+052-6492-63929,Established Patient,N,14382.0,1353.0,Hemophilia A
+052-6497-74522,Established Patient,Y,14151.0,-6317.0,Hemophilia A
+052-6515-26347,New Patient,N,14865.0,12464.0,Hemophilia A
+052-6640-19183,New Patient,Y,16860.0,8811.0,Hemophilia A
+052-6642-02844,Established Patient,N,14342.0,-1356.0,Hemophilia A
+052-6678-88663,Established Patient,N,14067.0,13102.0,Hemophilia B
+052-6779-22198,New Patient,N,15523.0,2241.0,Hemophilia A
+052-6834-70627,Established Patient,N,14284.0,9177.0,Hemophilia A
+052-6936-91937,Established Patient,Y,14088.0,1291.0,Hemophilia A
+052-6951-94347,Established Patient,Y,16601.0,3333.0,Hemophilia A
+052-7001-54949,Transfer Pat,N,16923.0,6528.0,Hemophilia B
+052-7054-25954,Established Patient,N,14165.0,10301.0,Hemophilia A
+052-7140-49387,Established Patient,Y,14256.0,1322.0,Hemophilia B
+052-7264-25442,Established Patient,N,14858.0,6375.0,Hemophilia A
+052-7276-39779,Established Patient,Y,14417.0,3210.0,Hemophilia A
+052-7342-33121,Established Patient,N,14144.0,9845.0,Hemophilia A
+052-7411-58320,Established Patient,N,14375.0,9996.0,Hemophilia A
+052-7504-25360,Established Patient,N,16223.0,15110.0,Hemophilia A
+052-7597-17517,Established Patient,N,15929.0,14929.0,Hemophilia A
+052-7681-08273,Established Patient,Y,14067.0,1780.0,Hemophilia A
+052-7681-90153,Established Patient,N,14207.0,12553.0,Hemophilia A
+052-7684-79764,Established Patient,N,14417.0,-2573.0,Hemophilia A
+052-7689-47596,Established Patient,N,14074.0,12918.0,Hemophilia A
+052-7792-41260,Established Patient,N,14200.0,9205.0,Hemophilia A
+052-8024-53357,Established Patient,Y,14193.0,8019.0,Hemophilia A
+052-8055-20102,Established Patient,N,14102.0,11123.0,Hemophilia A
+052-8132-32878,New Patient,Y,14340.0,9907.0,Hemophilia B
+052-8136-20075,New Patient,Y,14340.0,11884.0,Hemophilia B
+052-8313-89166,New Patient,Y,15502.0,9511.0,Hemophilia A
+052-8319-47981,Established Patient,N,14410.0,11915.0,Hemophilia A
+052-8545-48437,Established Patient,N,14389.0,6283.0,Hemophilia A
+052-8559-15209,New Patient,Y,17105.0,1018.0,Hemophilia A
+052-8765-58470,Established Patient,Y,14235.0,4336.0,Hemophilia A
+052-9040-41302,Established Patient,N,15586.0,13649.0,Hemophilia A
+052-9123-08190,Established Patient,Y,14557.0,13802.0,Hemophilia A
+052-9174-25515,Established,Y,17259.0,6954.0,Hemophilia A
+052-9299-78460,Established Patient,N,14319.0,11733.0,Hemophilia A
+052-9335-58375,Established Patient,N,14165.0,13498.0,Hemophilia A
+052-9535-45277,Established Patient,Y,14095.0,8505.0,Hemophilia A
+052-9538-34445,Established Patient,Y,14095.0,12127.0,Hemophilia A
+052-9575-58173,Established Patient,N,16398.0,15355.0,Hemophilia A
+052-9614-70332,Established Patient,Y,14193.0,500.0,Hemophilia B
+052-9694-11067,Established,Y,16567.0,15751.0,Hemophilia A
+052-9702-63023,Established Patient,N,14165.0,8081.0,Hemophilia A
+052-9712-63725,Established Patient,Y,14242.0,11215.0,Hemophilia B
+052-9840-43815,Established Patient,N,16223.0,14167.0,Hemophilia A
+052-9846-26079,Established Patient,Y,16041.0,14806.0,Hemophilia A

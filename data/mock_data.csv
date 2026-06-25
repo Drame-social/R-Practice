@@ -1,0 +1,51 @@
+date,id,email,address,score1,score2,score3,score4,score5,zipcode,supervisor,password,phone_num,value,code,colors
+2017-05-27,1001.0,lhuyche0@de.vu,9 Derek Alley,1.0,5.0,9.0,9.0,2.0,6705.0,Louise Huyche,SgsJvNJVkfp,(228)282-1235,7.2,AHT,"red,blue,green"
+2017-04-05,1002.0,lcuttles1@yandex.ru,10 Manley Place,8.0,4.0,9.0,6.0,9.0,49221.0,Lavinie Cuttles,QodnkSQXId31,(317)    693-1880,-8.1,     YEJ,"green,blue"
+2016-10-22,1003.0,aberndsen2@t.co,4 Stone Corner Drive,5.0,3.0,2.0,2.0,5.0,6902.0,Audrye Berndsen,8qTZsoOSDR,430-988-3794,4.0,GHJ,"red,yellow"
+2017-04-24,1004.0,wgrennan3@tumblr.com,152 Buell Court,4.0,6.0,5.0,4.0,6.0,55343.0,Wilmer T. Grennan,4UhE2uKfPXo,(734)76379    -66,3.7,    HUG,yellow
+2016-10-27,1005.0,vjuza4@1688.com,18069 Hoffman Crossing,3.0,6.0,4.0,7.0,5.0,48045.0,Valentin Juza,YZFd1NRmD,(386)397-1561,7.0,WUS,"red,yellow,orange"
+2016-12-15,1006.0,akilmurray5@ning.com,4610 Dahle Plaza,9.0,9.0,9.0,5.0,7.0,32533.0,Aldin Kilmurray,r5OycLwU,(660)745-7005,7.1,GID,"blue,green"
+2016-10-20,1007.0,ebranwhite6@bluehost.com,95482 Monterey Pass,5.0,6.0,2.0,7.0,4.0,48601.0,Ema Branwhite,P3Lwdnb,(660)462-2730,3.0,PLO,"green,blue"
+2017-09-12,1008.0,lquinney7@bravesites.com,3108 Forest Dale Alley,3.0,9.0,9.0,1.0,9.0,30322.0,Lorna Quinney,xX0L3glX1G,(312)485-4028,5.6,APY,purple
+2016-09-19,1009.0,vlukacs8@dagondesign.com,91 Myrtle Junction,6.0,1.0,1.0,5.0,4.0,8901.0,Valma L. Lukacs,OTN96KSUS0d,(458)201-8223,7.1,FIK,"purple,red,green"
+2017-08-10,1010.0,mmcmaster9@hao123.com,88 Valley Edge Junction,3.0,1.0,1.0,4.0,4.0,30240.0,Mandel McMaster,LVSswehm5,3347927677,-6.4,             YYY,"red,blue,green"
+2017-03-04,1011.0,manfussoa@discuz.net,66810 Arizona Pass,9.0,3.0,6.0,8.0,6.0,60004.0,Melloney Anfusso,0mhrNH,414510-4566,3.2,GDS,"green,blue"
+2017-05-14,1012.0,avarkerb@europa.eu,431 Kingsford Circle,5.0,7.0,6.0,9.0,8.0,45420.0,Adamo Varker,mbSPP9E49,(408)854-2955,6.1,AHT,"red,yellow"
+2017-03-20,1013.0,mmcelhinneyc@is.gd,798 Larry Parkway,2.0,3.0,6.0,2.0,1.0,19047.0,Mechelle McElhinney,6TzHIeNca0l,(385)225-9086,1.0,     YEJ,yellow
+2016-12-06,1014.0,ctomasd@wordpress.org,4891 Village Green Street,2.0,7.0,6.0,1.0,9.0,18055.0,Crista Tomas,IijZQzQq,(850)556-6279,0.0,GHJ,"red,yellow,orange"
+2016-10-10,1015.0,iteathere@intel.com,6 Eagan Park,4.0,2.0,8.0,7.0,9.0,15146.0,Imogene T. Teather,K2t7Vq,(272)762-4816,0.0,    HUG,"blue,green"
+2017-03-06,1016.0,iananf@domainmarket.com,0 Hoepker Street,1.0,9.0,2.0,9.0,5.0,7840.0,Isaiah Anan,5GWxc1Zb,(612)262-3544,-11.0,WUS,"green,blue"
+2017-02-22,1017.0,nbroggiog@pcworld.com,7670 Northview St.,2.0,8.0,3.0,4.0,8.0,19047.0,Nikolaos Broggio,mbEpYVoj,(417)247-    1356,-10.9,GID,purple
+2016-11-20,1018.0,bheffernonh@free.fr,543 Melrose Street,7.0,9.0,9.0,5.0,2.0,50401.0,Bettine Heffernon,LBB3dcigu,(386)224-9336,4.0,PLO,"purple,red,green"
+2017-05-28,1019.0,iswattoni@fotki.com,6 East Lane,7.0,1.0,8.0,1.0,6.0,60060.0,Inglis Swatton,aCl9H2B,(346)728-3714,5.7,APY,"red,blue,green"
+2017-05-25,1020.0,bthorwarthj@reverbnation.com,58510 Service Point,7.0,8.0,3.0,1.0,8.0,54956.0,Berthe P. Thorwarth,9UIgqNO8w96,(580)473-7584,9.0,FIK,"green,blue"
+2017-01-07,1021.0,greamank@jugem.jp,40223 Blue Bill Park Parkway,5.0,4.0,9.0,1.0,6.0,44663.0,Grant Reaman,GtyK9SMOH,(228)282-1235,9.5,             YYY,"red,yellow"
+2017-06-24,1022.0,jeaglingl@arstechnica.com,3773 Portage Center,7.0,1.0,5.0,4.0,2.0,47274.0,Juan Eagling,cP1qjYqu3,(317)    693-1880,5.0,GID,yellow
+2016-09-22,1023.0,hdonisom@etsy.com,31 Mosinee Junction,2.0,9.0,3.0,2.0,9.0,11361.0,Hunter O. Doniso,sU7oW4CZb,430-988-3794,7.1,PLO,"red,yellow,orange"
+2017-05-24,1024.0,ppavettn@squidoo.com,353 Hazelcrest Junction,6.0,4.0,2.0,2.0,6.0,19047.0,Pat Pavett,r50KDtnyyCy7,(734)76379    -66,7.0,APY,"blue,green"
+2017-02-11,1025.0,dthayreo@fda.gov,5 Melody Hill,1.0,6.0,5.0,5.0,9.0,44663.0,Daisie Thayre,JRspoh,(386)397-1561,7.1,FIK,"green,blue"
+2016-10-20,1026.0,jvizep@unicef.org,7 Paget Plaza,6.0,1.0,7.0,1.0,3.0,54956.0,Jake Vize,FwR9xg,(660)745-7005,3.0,             YYY,purple
+2017-05-27,1027.0,bcelesq@devhub.com,9 Grim Center,2.0,4.0,3.0,9.0,9.0,97124.0,Birgit Celes,1BKQjEYFu,(660)462-2730,5.6,     YEJ,"purple,red,green"
+2017-01-10,1028.0,khardwichr@hubpages.com,10781 Bartillon Point,2.0,5.0,7.0,2.0,9.0,30322.0,Keriann Hardwich,ToF4lDeoZFt,(312)485-4028,7.1,GHJ,"red,blue,green"
+2016-10-08,1029.0,celvinss@github.io,312 Susan Crossing,3.0,9.0,9.0,1.0,3.0,8901.0,Carlin Elvins,Cs2ha1SAU,(458)201-8223,-6.4,    HUG,"green,blue"
+2017-04-26,1030.0,grizzillot@berkeley.edu,671 East Alley,1.0,5.0,5.0,5.0,7.0,30240.0,Gwyn Rizzillo,L73JHocU,3347927677,3.2,WUS,"red,yellow"
+2016-12-11,1031.0,tniblettu@nbcnews.com,0017 Hoffman Park,8.0,6.0,2.0,6.0,9.0,60004.0,Tibold Niblett,3z3CBxPZRee,414510-4566,6.1,GID,yellow
+2017-03-22,1032.0,jextencev@so-net.ne.jp,48 Paget Parkway,2.0,7.0,7.0,6.0,8.0,45420.0,Jud Extence,3Try3gTPwuDh,(408)854-2955,1.0,     YEJ,"red,yellow,orange"
+2017-01-17,1033.0,rstemsonw@businesswire.com,36 Lindbergh Place,4.0,6.0,5.0,3.0,5.0,19047.0,Raddie Stemson,bXAq45,(385)225-9086,2.0,GHJ,"blue,green"
+2017-08-28,1034.0,dbollinix@narod.ru,02778 Rockefeller Road,1.0,6.0,2.0,9.0,4.0,18055.0,Diana Bollini,uXCM89lHF472,(850)556-6279,3.5,    HUG,"green,blue"
+2017-02-07,1035.0,rashally@businesswire.com,7780 1st Street,9.0,9.0,5.0,3.0,9.0,15146.0,Renaud Ashall,ZKY2V5h,(272)762-4816,4.0,WUS,purple
+2016-10-07,1036.0,mlez@yahoo.com,14398 Mcguire Plaza,9.0,3.0,7.0,5.0,6.0,7840.0,Myra Le Moucheux,2zx1c1Z,(612)262-3544,9.0,GID,"purple,red,green"
+2017-03-03,1037.0,lburnyeat10@shinystat.com,1 Bowman Alley,2.0,2.0,3.0,9.0,3.0,19047.0,Laurie Burnyeat,UR4yBTlwmem,(417)247-    1356,-4.0,PLO,"red,blue,green"
+2017-03-08,1038.0,mpretti11@java.com,37202 Sheridan Terrace,5.0,3.0,5.0,2.0,4.0,50401.0,Maybelle Pretti,LGDIUEYxcqNR,(386)224-9336,4.0,APY,"green,blue"
+2017-07-08,1039.0,mhenrichs12@ustream.tv,0046 Mifflin Lane,4.0,8.0,2.0,9.0,2.0,30322.0,Maitilde H. Henrichs,esIrNjUYybX,(346)728-3714,9.6,FIK,"red,yellow"
+2017-04-02,1040.0,adecent13@nationalgeographic.com,3 Toban Crossing,5.0,7.0,8.0,8.0,8.0,8901.0,Andreas Decent,0D1TrY,(580)473-7584,6.3,             YYY,yellow
+2017-03-10,1041.0,gharrod14@netlog.com,0783 Main Avenue,7.0,8.0,6.0,3.0,1.0,30240.0,Gannon Harrod,AwpuPdDtqg,(228)282-1235,7.0,     YEJ,"red,yellow,orange"
+2017-07-11,1042.0,gjansie15@icio.us,95 Corry Trail,5.0,8.0,8.0,9.0,2.0,60004.0,Glyn Jansie,Oi831E0Cn,(317)    693-1880,7.1,GHJ,"blue,green"
+2017-09-03,1043.0,esomerbell16@purevolume.com,3217 Transport Center,9.0,4.0,6.0,8.0,2.0,45420.0,Elna Somerbell,YLNPyod,430-988-3794,3.0,    HUG,"green,blue"
+2016-10-11,1044.0,istannion17@businesswire.com,44 Autumn Leaf Avenue,8.0,5.0,2.0,4.0,1.0,19047.0,Iona Stannion,3H1dMNUi1,(734)76379    -66,5.6,WUS,purple
+2017-06-01,1045.0,gstukings18@businesswire.com,04088 Veith Plaza,6.0,5.0,5.0,5.0,9.0,18055.0,Goldie Stukings,amy8rEJ9O1,(386)397-1561,7.1,GID,"purple,red,green"
+2017-06-21,1046.0,mstooke19@diigo.com,6 Bowman Park,6.0,6.0,9.0,3.0,7.0,15146.0,Maurits Stooke,yCNOy2,(660)745-7005,-6.4,     YEJ,"red,blue,green"
+2016-12-09,1047.0,dtenny1a@aboutads.info,62303 Ridgeway Hill,1.0,2.0,3.0,6.0,7.0,7840.0,Dion Tenny,c4uXxdH,(660)462-2730,3.2,GHJ,"green,blue"
+2016-12-21,1048.0,sjeafferson1b@liveinternet.ru,658 Holmberg Alley,6.0,5.0,4.0,7.0,5.0,19047.0,Skylar Jeafferson,KL1av4U,(312)485-4028,6.1,    HUG,"red,yellow"
+2016-10-22,1049.0,keate1c@springer.com,83003 North Place,8.0,4.0,3.0,9.0,5.0,50401.0,Kelbee Eate,KtoGQW94,(458)201-8223,1.0,WUS,yellow
+2017-06-20,1050.0,gbarrowcliffe1d@twitpic.com,14 Kings Avenue,8.0,1.0,4.0,2.0,6.0,30322.0,Gordie B. Barrowcliffe,cE12rzidmo,3347927677,2.2,GID,"red,yellow,orange"
