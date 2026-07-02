@@ -1,15 +1,12 @@
 # R Programming for Public Health Analytics
 
-**Author:** Aly Drame, MD, MPH, MBA
-**Language:** R (tidyverse)
-**Domain:** HIV surveillance, immunization compliance, epidemiologic data analysis
-**Data:** Course datasets from AEPI537D — Intro to SAS Programming, Emory Rollins School of Public Health (converted to CSV for R compatibility)
+*By Aly Drame, MD, MPH, MBA.* The R (tidyverse) counterpart to my SAS and Python public-health programming repos — the same Emory AEPI537D course datasets (synthetic / course-provided; no real patient or program records), worked end to end from import through reporting.
 
 ---
 
 ## Overview
 
-This repository applies core R programming skills to real public health datasets, organized by the natural data analysis workflow. It is the R counterpart to [sas-public-health-analytics](https://github.com/Drame-social/sas-public-health-analytics), performing equivalent analyses using idiomatic R (tidyverse / ggplot2).
+This repository applies core R programming skills to educational public health datasets (synthetic / course-provided; no real patient or program records), organized by the natural data analysis workflow. It is the R counterpart to [sas-public-health-analytics](https://github.com/Drame-social/sas-public-health-analytics), performing equivalent analyses using idiomatic R (tidyverse / ggplot2).
 
 ---
 
