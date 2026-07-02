@@ -1,4 +1,4 @@
-# R Programming for Public Health Analytics
+# Public Health Analytics — R
 
 *By Aly Drame, MD, MPH, MBA.* The R (tidyverse) counterpart to my SAS and Python public-health programming repos — the same Emory AEPI537D course datasets (synthetic / course-provided; no real patient or program records), worked end to end from import through reporting.
 
