@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-Bar charts and stacked proportional bars with ggplot2, histograms with reference lines, box plots by group, saving plots to PNG with ggsave, and county-level choropleth maps using the maps package and AIDSVu data.
+Grouped bar charts, histograms, and box plots with ggplot2, and a county map of HIV new-diagnosis rates for Georgia (AIDSVu, 2016) using county boundaries from the maps package. Negative values in the AIDSVu file are suppression codes and are set to missing; suppressed counties are shown in grey.
 
 ## Files
 
@@ -14,17 +14,16 @@ Bar charts and stacked proportional bars with ggplot2, histograms with reference
 
 final_demo.csv, final_clin.csv, aidsvu_2016_newdx_county.csv
 
+Derived files are written to `./outputs/`.
+
 ## Key R Syntax
 
 ```r
-library(ggplot2)
+aidsvu <- aidsvu %>%
+  filter(!is.na(county_name)) %>%
+  mutate(newdx_rate = if_else(newdx_rate < 0, NA_real_, newdx_rate))  # suppression codes
 
-# Bar chart
-ggplot(df, aes(x = sex, fill = suppressed)) +
-  geom_bar(position = "fill") +
-  scale_y_continuous(labels = scales::percent) +
-  theme_minimal()
-
-# Save to file
-ggsave("outputs/plot.png", width = 6, height = 4, dpi = 150)
+ga_map <- left_join(map_data("county", "georgia") %>% mutate(key = gsub("[^a-z]", "", subregion)),
+                    aidsvu, by = "key")
+ggplot(ga_map, aes(long, lat, group = group, fill = newdx_rate)) + geom_polygon()
 ```
