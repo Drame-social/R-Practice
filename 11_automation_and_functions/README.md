@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-Writing reusable analysis functions with tidy evaluation ({{ }}), running the same function across multiple outcomes, using map_dfr to batch-process datasets, and wrapping full pipelines into callable functions.
+Parameterized functions with tidy evaluation as equivalents of SAS macros, loops over datasets with purrr (%DO), and a small pipeline function that reads, cleans, summarizes, and saves in one call.
 
 ## Files
 
@@ -12,20 +12,17 @@ Writing reusable analysis functions with tidy evaluation ({{ }}), running the sa
 
 ## Datasets Used
 
-final_demo.csv, final_clin.csv, mod3lab.csv, mod4.csv, mod6.csv, mod9.csv
+final_demo.csv, final_clin.csv, mod3lab.csv, mod4.csv, mod6.csv, mod9.csv, patients.csv, screener_data.csv
+
+Derived files are written to `./outputs/`.
 
 ## Key R Syntax
 
 ```r
-# Reusable summary function
-summarize_cohort <- function(data, group_var, outcome_var) {
-  data %>%
-    group_by({{ group_var }}) %>%
-    summarise(n    = n(),
-              mean = mean({{ outcome_var }}, na.rm = TRUE),
-              .groups = "drop")
+summarize_by <- function(data, group_var, outcome_var) {
+  data %>% group_by({{ group_var }}) %>%
+    summarise(n = sum(!is.na({{ outcome_var }})),
+              mean = mean({{ outcome_var }}, na.rm = TRUE))
 }
-
-# Batch read + summarize
-results <- map_dfr(file_list, run_vl_pipeline)
+summarize_by(demo_clin, hlevel, bleeds)
 ```
