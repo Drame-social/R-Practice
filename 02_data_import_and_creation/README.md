@@ -2,29 +2,26 @@
 
 ## Topics Covered
 
-Importing CSV files with read_csv(), reading Excel files with read_excel(), reading delimited text files, stacking datasets with bind_rows(), and merging with left_join() / inner_join().
+Importing CSV files with read_csv(), an Excel file with read_excel(), and a space-delimited text file with no header row; creating a small dataset in code; stacking datasets with bind_rows() and flagging their source. RAWDAT1.xls is saved in an old Excel format that readxl cannot open, so the script reports this and continues.
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `02_data_import_and_creation.R` | Import, merge, and stack datasets |
+| `02_data_import_and_creation.R` | Import, create, and stack datasets |
 
 ## Datasets Used
 
-phase1.csv, phase2.csv, cohort1516.csv, cohort1617.csv, labs.csv, RAWDAT1.xls, RAWDATA.TXT
+phase1.csv, phase2.csv, cohort1516.csv, cohort1617.csv, raw/RAWDAT1.xls, raw/RAWDATA.TXT
+
+Derived files are written to `./outputs/`.
 
 ## Key R Syntax
 
 ```r
-library(readr); library(dplyr)
+rawdata_txt <- read_table("./data/raw/RAWDATA.TXT",
+                          col_names = c("studyid", "caco", "age", "exposure"))
 
-# Import CSV
-df <- read_csv("./data/phase1.csv")
-
-# Stack datasets
-combined <- bind_rows(cohort1516, cohort1617)
-
-# Left join
-merged <- left_join(demo, clin, by = "studyid")
+cohort_combined <- bind_rows(cohort1516, cohort1617)
+phases <- bind_rows(`1` = phase1, `2` = phase2, .id = "phase")
 ```
