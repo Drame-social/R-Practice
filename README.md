@@ -3,13 +3,13 @@
 **Author:** Aly Drame, MD, MPH, MBA
 **Language:** R (tidyverse)
 **Domain:** HIV surveillance, immunization compliance, epidemiologic data analysis
-**Data:** AEPI537D — Introduction to SAS Programming, Emory Rollins School of Public Health course datasets (authorized for public redistribution; converted to CSV for R compatibility)
+**Data:** Educational practice datasets and public aggregated county-level HIV data (AIDSVu, 2016), converted from SAS format to CSV for R compatibility. No real patient-level records.
 
 ---
 
 ## Overview
 
-This repository applies core R programming skills to publicly redistributable educational course datasets and public aggregated data, organized by the natural data analysis workflow. It is the R counterpart to [sas-public-health-analytics](https://github.com/Drame-social/sas-public-health-analytics), performing equivalent analyses using idiomatic R (tidyverse / ggplot2).
+This repository applies core R programming skills to educational practice datasets and public aggregated data, organized by the natural data analysis workflow. It is the R counterpart to [sas-public-health-analytics](https://github.com/Drame-social/sas-public-health-analytics), performing equivalent analyses using idiomatic R (tidyverse / ggplot2).
 
 ---
 
