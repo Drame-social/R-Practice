@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-Sorting and creating lag variables with lag(), group-level summaries with group_by() + summarise(), wide-to-long reshaping with pivot_longer(), long-to-wide with pivot_wider(), and first/last visit extraction.
+Working with several visits per patient: visits per patient, first visit (SAS FIRST.), visit numbers, lagged values and change, per-patient summaries merged back to baseline, and reshaping with pivot_longer() and pivot_wider() (PROC TRANSPOSE).
 
 ## Files
 
@@ -12,21 +12,17 @@ Sorting and creating lag variables with lag(), group-level summaries with group_
 
 ## Datasets Used
 
-mod9.csv, mod8_b.csv, mod8_c.csv
+patients.csv, mod8_c.csv
+
+Derived files are written to `./outputs/`.
 
 ## Key R Syntax
 
 ```r
-# Lag within group
-df <- df %>%
-  arrange(studyid, visitdate) %>%
-  group_by(studyid) %>%
-  mutate(prev_vl   = lag(vl),
-         visit_num = row_number()) %>%
-  ungroup()
+first_visit <- patients %>% arrange(id, visdate) %>%
+  group_by(id) %>% slice_head(n = 1) %>% ungroup()              # IF FIRST.id
 
-# Wide to long
-long_df <- df %>%
-  pivot_longer(cols = starts_with("visit"),
-               names_to = "visit", values_to = "result")
+patients <- patients %>% group_by(id) %>%
+  mutate(visit_number = row_number(),
+         weight_change = weight - lag(weight)) %>% ungroup()      # LAG
 ```
