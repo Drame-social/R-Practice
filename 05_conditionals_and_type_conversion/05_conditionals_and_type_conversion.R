@@ -3,60 +3,59 @@
 # R equivalent of SAS Module 5
 # Packages: readr, dplyr
 # =============================================================================
-DATA_PATH <- "./data"
+DATA_PATH    <- "./data"
+OUTPUTS_PATH <- "./outputs"
+dir.create(OUTPUTS_PATH, showWarnings = FALSE)
 
 library(readr)
 library(dplyr)
 
-final_clin <- read_csv(file.path(DATA_PATH, "final_clin.csv"))
+grades <- read_csv(file.path(DATA_PATH, "atlgrades.csv"), show_col_types = FALSE) %>%
+  rename_with(tolower)
 
 # ----------------------------------------------------------------------------
-# 5.1 Simple conditional — equivalent to SAS IF-THEN-ELSE
+# 5.1 IF-THEN-ELSE — pass/fail
 # ----------------------------------------------------------------------------
-final_clin <- final_clin %>%
-  mutate(
-    vl_category = case_when(
-      vl < 200          ~ "Suppressed",
-      vl < 1000         ~ "Low",
-      vl < 100000       ~ "Moderate",
-      TRUE              ~ "High"
-    )
-  )
+grades <- mutate(grades, course = if_else(grade >= 60, "Pass", "Fail"))
+print(count(grades, course))
 
 # ----------------------------------------------------------------------------
-# 5.2 Binary indicator from condition — equivalent to SAS IF x THEN y = 1
+# 5.2 IF-THEN / ELSE IF chain — letter grades
+#     case_when() checks conditions in order, like SAS ELSE IF. Separate IF
+#     statements without ELSE would let later conditions overwrite earlier
+#     ones, which is the common SAS mistake this mirrors.
 # ----------------------------------------------------------------------------
-final_clin <- final_clin %>%
-  mutate(
-    suppressed   = as.integer(vl < 200),
-    on_art       = as.integer(!is.na(art_start_date)),
-    missing_cd4  = as.integer(is.na(cd4))
-  )
+grades <- grades %>%
+  mutate(ltrgrade = case_when(
+    grade >= 90 ~ "A",
+    grade >= 80 ~ "B",
+    grade >= 70 ~ "C",
+    grade >= 60 ~ "D",
+    !is.na(grade) ~ "F"
+  ))
+print(head(select(grades, name, grade, ltrgrade)))
+print(table(grades$group, grades$ltrgrade))
 
 # ----------------------------------------------------------------------------
-# 5.3 Type conversion — equivalent to SAS INPUT() and PUT()
+# 5.3 Character to numeric — equivalent to SAS INPUT() with informats
 # ----------------------------------------------------------------------------
-final_clin <- final_clin %>%
-  mutate(
-    # Numeric to character
-    studyid_char  = as.character(studyid),
-    # Character to numeric (NAs introduced for non-numeric)
-    vl_numeric    = suppressWarnings(as.numeric(vl)),
-    # Character to date
-    art_date_dt   = as.Date(art_start_date, format = "%Y-%m-%d")
-  )
+cat("\n'50000'      ->", as.numeric("50000"), "\n")
+cat("'15%'        ->", as.numeric(sub("%", "", "15%")) / 100, "\n")
+cat("'43,000.24'  ->", as.numeric(gsub(",", "", "43,000.24")), "\n")
+cat("'01-11-2019' ->", format(as.Date("01-11-2019", format = "%m-%d-%Y")), "\n\n")
 
 # ----------------------------------------------------------------------------
-# 5.4 Handling missing values
+# 5.4 Numeric to character — equivalent to SAS PUT()
 # ----------------------------------------------------------------------------
-cat("Missing CD4 count:", sum(is.na(final_clin$cd4)), "\n")
+grades <- grades %>%
+  mutate(grade_txt  = if_else(is.na(grade), "", sprintf("%.0f", grade)),
+         attend_txt = recode(attendx, `1` = "Attended", `0` = "Absent"))
+glimpse(grades)
 
-final_clin_nomiss <- final_clin %>% filter(!is.na(cd4))
-cat("After dropping missing CD4:", nrow(final_clin_nomiss), "\n")
+# ----------------------------------------------------------------------------
+# 5.5 Missing values in conditions
+# ----------------------------------------------------------------------------
+cat("Missing grades:", sum(is.na(grades$grade)), "\n")
 
-# Replace missing with mean
-mean_cd4 <- mean(final_clin$cd4, na.rm = TRUE)
-final_clin <- final_clin %>%
-  mutate(cd4_imputed = ifelse(is.na(cd4), mean_cd4, cd4))
-
-write_csv(final_clin, file.path(DATA_PATH, "final_clin_processed.csv"))
+write_csv(grades, file.path(OUTPUTS_PATH, "atlgrades_processed.csv"))
+cat("Saved outputs/atlgrades_processed.csv\n")
