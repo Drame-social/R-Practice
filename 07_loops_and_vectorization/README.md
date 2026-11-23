@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-for loops over variable lists, sapply/lapply for column-wise operations, purrr::map for reading multiple datasets, and across() for vectorized column transformations.
+for loops and vectorized operations as equivalents of SAS arrays: recoding a missing-value code across many columns, scoring across items, flagging any matching code across columns, counting non-missing entries, and applying functions over columns and files with purrr.
 
 ## Files
 
@@ -12,18 +12,15 @@ for loops over variable lists, sapply/lapply for column-wise operations, purrr::
 
 ## Datasets Used
 
-mod8_a.csv, flbygroup.csv, screener_data.csv, survey.csv
+mod8_a.csv, mod8_b.csv, mod8_c.csv, mod8_d.csv, flbygroup.csv, screener_data.csv, survey.csv
+
+Derived files are written to `./outputs/`.
 
 ## Key R Syntax
 
 ```r
-library(purrr)
+for (v in var_cols) loop_version[[v]][loop_version[[v]] %in% 9] <- NA   # ARRAY / DO
+mod8_a <- mutate(mod8_a, across(all_of(var_cols), ~ na_if(.x, 9)))      # vectorized
 
-# Read multiple files
-datasets <- map(file_list,
-  ~ read_csv(file.path(DATA_PATH, .x)))
-
-# Apply function to all numeric columns
-df <- df %>%
-  mutate(across(where(is.numeric), ~ round(.x, 2)))
+mod8_d <- mutate(mod8_d, DRUGS = rowSums(!is.na(across(starts_with("DRUG")))))
 ```
