@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-Multi-condition logic with case_when(), binary indicators with as.integer(), type conversions between numeric/character/date, and handling missing values with is.na() and na.rm.
+IF-THEN-ELSE logic with if_else(), ordered ELSE IF chains with case_when(), converting text to numbers and dates (SAS INPUT), converting numbers to text (SAS PUT), and missing values in conditions.
 
 ## Files
 
@@ -12,17 +12,18 @@ Multi-condition logic with case_when(), binary indicators with as.integer(), typ
 
 ## Datasets Used
 
-final_clin.csv
+atlgrades.csv
+
+Derived files are written to `./outputs/`.
 
 ## Key R Syntax
 
 ```r
-df <- df %>%
-  mutate(
-    vl_category = case_when(
-      vl < 200    ~ "Suppressed",
-      vl < 1000   ~ "Low",
-      vl < 100000 ~ "Moderate",
-      TRUE        ~ "High"),
-    suppressed = as.integer(vl < 200))
+grades <- grades %>%
+  mutate(course   = if_else(grade >= 60, "Pass", "Fail"),
+         ltrgrade = case_when(grade >= 90 ~ "A", grade >= 80 ~ "B",
+                              grade >= 70 ~ "C", grade >= 60 ~ "D",
+                              !is.na(grade) ~ "F"))
+
+as.Date("01-11-2019", format = "%m-%d-%Y")   # INPUT(x, mmddyy10.)
 ```
