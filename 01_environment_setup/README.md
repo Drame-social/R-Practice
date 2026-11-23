@@ -17,8 +17,8 @@ None
 ## Key R Syntax
 
 ```r
-# Install and load tidyverse
-install.packages("tidyverse")
+# Install the packages used in this repository
+install.packages(c("tidyverse", "lubridate", "readxl", "openxlsx", "labelled", "maps"))
 library(tidyverse)
 
 # Set working directory
