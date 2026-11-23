@@ -25,15 +25,12 @@ glimpse(phase1)
 
 # ----------------------------------------------------------------------------
 # 2.2 Import an Excel file — equivalent to SAS PROC IMPORT DBMS=XLS
-#     RAWDAT1.xls is saved in an old Excel format (BIFF4) that readxl cannot
-#     open. The script reports this instead of stopping. Re-saving the file
-#     as .xlsx in Excel makes it readable with read_excel().
+#     The .xlsx copy preserves the data from the legacy BIFF4 workbook.
 # ----------------------------------------------------------------------------
 rawdat1 <- tryCatch(
-  read_excel(file.path(DATA_PATH, "raw", "RAWDAT1.xls")),
+  read_excel(file.path(DATA_PATH, "raw", "RAWDAT1.xlsx")),
   error = function(e) {
-    message("Note: RAWDAT1.xls could not be read by readxl (old Excel format). ",
-            "Re-save it as .xlsx to use read_excel().")
+    message("Note: Could not read RAWDAT1.xlsx. ", conditionMessage(e))
     NULL
   }
 )

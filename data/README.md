@@ -10,7 +10,8 @@ All datasets used across the 12 phases, converted from SAS .sas7bdat format to C
 |------|-------------|
 | `*.csv` | 25 analysis datasets |
 | `raw/RAWDATA.TXT` | Raw delimited text file |
-| `raw/RAWDAT1.xls` | Raw Excel source file |
+| `raw/RAWDAT1.xls` | Original BIFF4 Excel workbook |
+| `raw/RAWDAT1.xlsx` | Converted workbook for the R import example |
 
 ## Datasets Used
 

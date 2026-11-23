@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-Importing CSV files with read_csv(), an Excel file with read_excel(), and a space-delimited text file with no header row; creating a small dataset in code; stacking datasets with bind_rows() and flagging their source. RAWDAT1.xls is saved in an old Excel format that readxl cannot open, so the script reports this and continues.
+Importing CSV files with read_csv(), an Excel file with read_excel(), and a space-delimited text file with no header row; creating a small dataset in code; stacking datasets with bind_rows() and flagging their source. The Excel example reads the converted workbook, raw/RAWDAT1.xlsx.
 
 ## Files
 
@@ -12,7 +12,7 @@ Importing CSV files with read_csv(), an Excel file with read_excel(), and a spac
 
 ## Datasets Used
 
-phase1.csv, phase2.csv, cohort1516.csv, cohort1617.csv, raw/RAWDAT1.xls, raw/RAWDATA.TXT
+phase1.csv, phase2.csv, cohort1516.csv, cohort1617.csv, raw/RAWDAT1.xlsx, raw/RAWDATA.TXT
 
 Derived files are written to `./outputs/`.
 
