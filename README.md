@@ -2,7 +2,7 @@
 
 **Author:** Aly Drame, MD, MPH, MBA
 **Language:** R (tidyverse)
-**Domain:** HIV surveillance, immunization compliance, epidemiologic data analysis
+**Domain:** Epidemiologic data management and analysis, clinical cohort data, county-level HIV surveillance data
 **Data:** Educational practice datasets and public aggregated county-level HIV data (AIDSVu, 2016), converted from SAS format to CSV for R compatibility. No real patient-level records.
 
 ---
@@ -47,21 +47,21 @@ This repository applies core R programming skills to educational practice datase
 
 | File | Rows | Cols | Description |
 |------|------|------|-------------|
-| aidsvu_2016_newdx_county.csv | 160 | 7 | HIV new diagnoses by county, 2016 |
+| aidsvu_2016_newdx_county.csv | 160 | 7 | HIV new diagnoses for 159 Georgia counties, 2016 (AIDSVu; last row is blank; negative values are suppression codes) |
 | atlgrades.csv | 26 | 4 | Student grade records |
 | cohort1516.csv | 204 | 6 | Cohort enrollment, 2015–16 |
 | cohort1617.csv | 152 | 6 | Cohort enrollment, 2016–17 |
-| final_clin.csv | 1,006 | 36 | Clinical HIV outcomes |
-| final_demo.csv | 1,006 | 6 | Patient demographics |
+| final_clin.csv | 1,006 | 36 | Clinical cohort data (severity level, bleeds, weight, height, and `fp_` indicator items) |
+| final_demo.csv | 1,006 | 6 | Registration and demographics, including hemophilia type; links to final_clin by `id` |
 | flbygroup.csv | 100 | 3 | Flu data by group |
-| labs.csv | 30 | 2 | Laboratory results |
+| labs.csv | 30 | 2 | Laboratory result (MTHFR) by study ID |
 | mod3lab.csv | 356 | 20 | Module 3 lab dataset |
 | mod4.csv | 356 | 24 | Module 4 categorical/date data |
 | mod6.csv | 356 | 35 | Module 6 variable documentation |
 | mod8_a/b/c/d.csv | varies | varies | Arrays and repeated measures |
-| mod9.csv | 356 | 20 | Longitudinal visit data |
-| mock_data.csv | 50 | 16 | General mock patient data |
-| patients.csv | 2,148 | 22 | Patient-level records |
+| mod9.csv | 356 | 20 | Survey dataset (one row per participant) |
+| mock_data.csv | 50 | 16 | Mock records for character and numeric function practice |
+| patients.csv | 2,148 | 22 | Repeated clinic visits (470 patients, 1–6 visits each) |
 | patients_part2.csv | 1,236 | 22 | Additional patient records |
 | phase1.csv / phase2.csv | 20/10 | 4 | Study phase enrollment |
 | screener_data.csv | 280 | 5 | Screening questionnaire |
@@ -85,6 +85,7 @@ This repository applies core R programming skills to educational practice datase
 | openxlsx | Excel export |
 | labelled | Variable labels (SAS-style metadata) |
 | maps | US county-level choropleth maps |
+| readxl | Excel import |
 
 ---
 
@@ -94,9 +95,9 @@ This repository applies core R programming skills to educational practice datase
 2. Open RStudio and set the working directory to the repo root
 3. Install required packages:
    ```r
-   install.packages(c("tidyverse", "lubridate", "openxlsx", "labelled", "maps"))
+   install.packages(c("tidyverse", "lubridate", "readxl", "openxlsx", "labelled", "maps"))
    ```
-4. Run scripts in phase order — each script reads from `./data` and writes outputs to `./data` or a local `./outputs` folder
+4. Run any script from the repo root, for example `Rscript 03_data_merging_and_subsetting/03_data_merging_and_subsetting.R`. Each script reads from `./data` and writes derived files and figures to `./outputs` (created automatically). Every script runs on its own, in any order.
 
 ---
 
