@@ -1,7 +1,7 @@
 # =============================================================================
 # Phase 12 — Visualization & Mapping
-# R equivalent of SAS Module 12
-# Packages: ggplot2, dplyr, readr, maps
+# R equivalent of SAS Module 12 (SGPLOT and county-level HIV data)
+# Packages: readr, dplyr, ggplot2, maps
 # =============================================================================
 DATA_PATH    <- "./data"
 OUTPUTS_PATH <- "./outputs"
@@ -10,96 +10,70 @@ dir.create(OUTPUTS_PATH, showWarnings = FALSE)
 library(readr)
 library(dplyr)
 library(ggplot2)
+library(maps)        # county boundaries; install.packages("maps") if needed
 
-final_demo  <- read_csv(file.path(DATA_PATH, "final_demo.csv"),  show_col_types = FALSE)
-final_clin  <- read_csv(file.path(DATA_PATH, "final_clin.csv"),  show_col_types = FALSE)
-aidsvu      <- read_csv(file.path(DATA_PATH, "aidsvu_2016_newdx_county.csv"),
-                        show_col_types = FALSE)
-
-demo_clin <- left_join(final_demo, final_clin, by = "studyid") %>%
-  mutate(
-    age_group  = cut(age,
-                     breaks = c(0, 24, 34, 44, 54, Inf),
-                     labels = c("<25","25-34","35-44","45-54","55+")),
-    suppressed = factor(vl < 200, levels = c(FALSE, TRUE),
-                        labels = c("Not Suppressed", "Suppressed"))
-  )
+final_demo <- read_csv(file.path(DATA_PATH, "final_demo.csv"), show_col_types = FALSE)
+final_clin <- read_csv(file.path(DATA_PATH, "final_clin.csv"), show_col_types = FALSE)
+aidsvu     <- read_csv(file.path(DATA_PATH, "aidsvu_2016_newdx_county.csv"),
+                       show_col_types = FALSE)
+demo_clin  <- left_join(final_demo, final_clin, by = "id") %>%
+  filter(!is.na(hlevel)) %>%
+  mutate(hlevel = factor(hlevel, levels = c("Mild", "Moderate", "Severe")))
 
 # ----------------------------------------------------------------------------
-# 12.1 Bar chart — viral load suppression by sex
+# 12.1 Grouped bar chart — hlevel by htype (SGPLOT VBAR / GROUP=)
 # ----------------------------------------------------------------------------
-p1 <- ggplot(demo_clin %>% filter(!is.na(suppressed), !is.na(sex)),
-             aes(x = factor(sex, labels = c("Male","Female")),
-                 fill = suppressed)) +
-  geom_bar(position = "fill") +
-  scale_y_continuous(labels = scales::percent) +
-  scale_fill_manual(values = c("#d9534f","#5cb85c")) +
-  labs(title    = "Viral Load Suppression by Sex",
-       x        = "Sex",
-       y        = "Proportion",
-       fill     = "VL Status",
-       caption  = "VL suppression defined as <200 copies/mL") +
+p1 <- ggplot(demo_clin, aes(x = hlevel, fill = htype)) +
+  geom_bar(position = "dodge") +
+  labs(title = "Patients by hlevel and htype", x = "hlevel", y = "Patients",
+       fill = "htype") +
   theme_minimal()
-
-ggsave(file.path(OUTPUTS_PATH, "vl_suppression_by_sex.png"),
-       p1, width = 6, height = 4, dpi = 150)
+ggsave(file.path(OUTPUTS_PATH, "hlevel_by_htype.png"), p1, width = 6, height = 4, dpi = 150)
 
 # ----------------------------------------------------------------------------
-# 12.2 Histogram — CD4 count distribution
+# 12.2 Histogram — bleeds (SGPLOT HISTOGRAM)
 # ----------------------------------------------------------------------------
-p2 <- ggplot(demo_clin %>% filter(!is.na(cd4)),
-             aes(x = cd4)) +
-  geom_histogram(bins = 30, fill = "#337ab7", color = "white") +
-  geom_vline(xintercept = 200, linetype = "dashed", color = "red") +
-  annotate("text", x = 230, y = 30, label = "CD4=200", color = "red", size = 3) +
-  labs(title = "CD4 Count Distribution",
-       x = "CD4 Count (cells/mm³)",
-       y = "Frequency") +
+p2 <- ggplot(filter(demo_clin, !is.na(bleeds)), aes(x = bleeds)) +
+  geom_histogram(bins = 30, colour = "white") +
+  labs(title = "Distribution of bleeds", x = "Bleeds", y = "Patients") +
   theme_minimal()
-
-ggsave(file.path(OUTPUTS_PATH, "cd4_distribution.png"),
-       p2, width = 6, height = 4, dpi = 150)
+ggsave(file.path(OUTPUTS_PATH, "bleeds_histogram.png"), p2, width = 6, height = 4, dpi = 150)
 
 # ----------------------------------------------------------------------------
-# 12.3 Box plot — CD4 by age group
+# 12.3 Box plot — bleeds by hlevel (SGPLOT VBOX / CATEGORY=)
 # ----------------------------------------------------------------------------
-p3 <- ggplot(demo_clin %>% filter(!is.na(cd4), !is.na(age_group)),
-             aes(x = age_group, y = cd4, fill = age_group)) +
-  geom_boxplot(alpha = 0.7, outlier.shape = 21) +
-  scale_fill_brewer(palette = "Blues") +
-  labs(title = "CD4 Count by Age Group",
-       x = "Age Group",
-       y = "CD4 Count (cells/mm³)") +
-  theme_minimal() +
-  theme(legend.position = "none")
-
-ggsave(file.path(OUTPUTS_PATH, "cd4_by_age_group.png"),
-       p3, width = 7, height = 4, dpi = 150)
+p3 <- ggplot(filter(demo_clin, !is.na(bleeds)), aes(x = hlevel, y = bleeds)) +
+  geom_boxplot() +
+  labs(title = "Bleeds by hlevel", x = "hlevel", y = "Bleeds") +
+  theme_minimal()
+ggsave(file.path(OUTPUTS_PATH, "bleeds_by_hlevel.png"), p3, width = 6, height = 4, dpi = 150)
 
 # ----------------------------------------------------------------------------
-# 12.4 County-level choropleth — AIDSVu new diagnoses
+# 12.4 County map of HIV new-diagnosis rates, Georgia 2016 (AIDSVu)
+#      Negative values are suppression codes, not rates, so they are set to
+#      missing. County boundaries come from the maps package.
 # ----------------------------------------------------------------------------
-if (requireNamespace("maps", quietly = TRUE)) {
-  library(maps)
-  county_map <- map_data("county")
-  aidsvu_clean <- aidsvu %>%
-    rename_with(tolower) %>%
-    mutate(subregion = tolower(gsub(" County", "", county)))
+aidsvu <- aidsvu %>%
+  filter(!is.na(county_name)) %>%                      # drop the blank last row
+  mutate(across(c(newdx_rate, newdx_cases), ~ if_else(.x < 0, NA_real_, .x)),
+         key = gsub("[^a-z]", "", tolower(sub(" County$", "", county_name))))
+cat("Counties:", nrow(aidsvu), "; with a reported rate:", sum(!is.na(aidsvu$newdx_rate)),
+    "; suppressed:", sum(is.na(aidsvu$newdx_rate)), "\n")
 
-  map_data_merged <- county_map %>%
-    left_join(aidsvu_clean, by = c("subregion"))
+ga_counties <- map_data("county", "georgia") %>%
+  mutate(key = gsub("[^a-z]", "", subregion))          # "de kalb" -> "dekalb"
+ga_map <- left_join(ga_counties, aidsvu, by = "key")
+cat("County polygons without a matching AIDSVu row:",
+    n_distinct(ga_map$key[is.na(ga_map$county_name)]), "\n")
 
-  p4 <- ggplot(map_data_merged, aes(long, lat, group = group, fill = rate)) +
-    geom_polygon(color = NA) +
-    scale_fill_viridis_c(option = "magma", na.value = "grey90",
-                         name = "Rate per\n100,000") +
-    labs(title   = "HIV New Diagnoses by County (2016)",
-         caption = "Source: AIDSVu 2016") +
-    theme_void()
+p4 <- ggplot(ga_map, aes(long, lat, group = group, fill = newdx_rate)) +
+  geom_polygon(colour = "white", linewidth = 0.1) +
+  coord_quickmap() +
+  scale_fill_viridis_c(option = "magma", direction = -1, na.value = "grey85",
+                       name = "Rate per\n100,000") +
+  labs(title = "HIV new-diagnosis rates by county, Georgia 2016",
+       subtitle = "Grey: suppressed or not reported") +
+  theme_void()
+ggsave(file.path(OUTPUTS_PATH, "ga_county_newdx_map.png"), p4, width = 7, height = 7, dpi = 150)
 
-  ggsave(file.path(OUTPUTS_PATH, "hiv_new_dx_county_map.png"),
-         p4, width = 9, height = 5, dpi = 150)
-  cat("Map saved.\n")
-}
-
-cat("All plots saved to outputs/\n")
+cat("Plots saved to outputs/\n")
