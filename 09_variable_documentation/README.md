@@ -2,32 +2,26 @@
 
 ## Topics Covered
 
-Renaming variables with rename() and rename_with(), applying variable labels with the labelled package, creating factor levels as value labels, and printing a codebook of all variables.
+Variable labels with the labelled package (SAS LABEL), value labels with factor() and cut() (PROC FORMAT), formatted cross-tabulations, and a codebook table (PROC CONTENTS). Variables without a documented meaning are left unlabeled.
 
 ## Files
 
 | File | Description |
 |------|-------------|
-| `09_variable_documentation.R` | Labels, renaming, and codebook generation |
+| `09_variable_documentation.R` | Labels, value formats, and codebook |
 
 ## Datasets Used
 
 mod6.csv
 
+Derived files are written to `./outputs/`.
+
 ## Key R Syntax
 
 ```r
-library(labelled)
+var_label(mod6) <- list(bmi = "Body mass index (kg/m2)",
+                        entryage = "Participant age at enrollment")
 
-# Apply variable labels
-var_label(df) <- list(
-  studyid = "Unique study participant identifier",
-  age     = "Age in years at enrollment",
-  vl      = "HIV viral load (copies/mL)")
-
-# Apply value labels (factor)
-df <- df %>%
-  mutate(sex = factor(sex,
-    levels = c(1,2),
-    labels = c("Male","Female")))
+yesno <- function(x) factor(x, levels = c(0, 1), labels = c("No", "Yes"))
+mod6 <- mutate(mod6, smoke_label = yesno(smoke))
 ```
