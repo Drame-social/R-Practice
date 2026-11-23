@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-Creating factor variables with factor() and cut(), computing frequency tables with table(), parsing dates with lubridate, date arithmetic, and extracting year/month components.
+Grouping a continuous variable with fixed cut points and with tertiles, deriving birth weight and BMI, converting SAS date numbers and text dates, and computing age at survey.
 
 ## Files
 
@@ -14,19 +14,14 @@ Creating factor variables with factor() and cut(), computing frequency tables wi
 
 mod4.csv
 
+Derived files are written to `./outputs/`.
+
 ## Key R Syntax
 
 ```r
-library(lubridate)
-
-# Categorize age
-df <- df %>%
-  mutate(age_group = cut(age,
-    breaks = c(0,17,34,49,64,Inf),
-    labels = c("<18","18-34","35-49","50-64","65+")))
-
-# Date arithmetic
-df <- df %>%
-  mutate(visitdate_dt = ymd(visitdate),
-         visit_year   = year(visitdate_dt))
+mod4 <- mod4 %>%
+  mutate(wt3lev_r   = cut(weight, breaks = c(0, 126, 149, Inf), labels = c(0, 1, 2)),
+         wt_tertile = ntile(weight, 3) - 1,                      # PROC RANK GROUPS=3
+         birth_date = as.Date(bd, origin = "1960-01-01"),        # SAS date value
+         calc_age   = as.numeric(ymd(surveydt) - birth_date) / 365.25)
 ```
