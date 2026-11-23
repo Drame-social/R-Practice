@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-String functions from stringr (str_to_upper, str_sub, str_detect), numeric functions (round, sqrt, floor), statistical summaries (mean, median, sd), and writing custom functions with case_when.
+Character functions (equivalents of SAS COMPRESS, UPCASE, SCAN, SUBSTR, INDEX, COUNTW), numeric functions across columns (MEAN, SUM, N, ABS, INT, SQRT), date parts, and a user-defined function.
 
 ## Files
 
@@ -12,22 +12,16 @@ String functions from stringr (str_to_upper, str_sub, str_detect), numeric funct
 
 ## Datasets Used
 
-patients.csv
+mock_data.csv
+
+Derived files are written to `./outputs/`.
 
 ## Key R Syntax
 
 ```r
-library(stringr)
-
-# String functions
-df <- df %>%
-  mutate(name_upper = str_to_upper(name),
-         first3     = str_sub(name, 1, 3))
-
-# Custom function
-bmi_category <- function(bmi) {
-  case_when(bmi < 18.5 ~ "Underweight",
-            bmi < 25   ~ "Normal",
-            TRUE       ~ "Overweight/Obese")
-}
+mock <- mock %>%
+  mutate(phone_digits = str_remove_all(phone_num, "\\D"),          # COMPRESS
+         email_domain = str_split_i(email, "@", 2),                 # SCAN
+         score_mean   = rowMeans(across(score1:score5), na.rm = TRUE),
+         score_band   = score_band(score_mean))
 ```
