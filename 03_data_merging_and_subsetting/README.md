@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-Filtering rows with filter(), selecting columns with select(), one-to-many merges, anti-joins to find unmatched records, and sorting with arrange().
+Merging by ID with full_join() and left_join() (SAS MERGE and IN=), subsetting rows with filter() and columns with select(), anti-joins, and sorting with arrange().
 
 ## Files
 
@@ -12,17 +12,15 @@ Filtering rows with filter(), selecting columns with select(), one-to-many merge
 
 ## Datasets Used
 
-mod3lab.csv, final_demo.csv, final_clin.csv
+phase2.csv, labs.csv, mod3lab.csv, final_demo.csv, final_clin.csv
+
+Derived files are written to `./outputs/`.
 
 ## Key R Syntax
 
 ```r
-# Filter rows
-hiv_pos <- mod3lab %>% filter(hivstatus == 1)
-
-# Anti-join — unmatched records
-unmatched <- anti_join(final_demo, final_clin, by = "studyid")
-
-# Sort
-sorted <- mod3lab %>% arrange(studyid, desc(visitdate))
+p2_labs   <- left_join(phase2, labs, by = "studyid")          # MERGE ... IF A;
+females   <- filter(mod3lab, sex == "female")                  # WHERE
+lifestyle <- select(mod3lab, studyid, sex, smoke, sleep)       # KEEP=
+unmatched <- anti_join(final_demo, final_clin, by = "id")
 ```
