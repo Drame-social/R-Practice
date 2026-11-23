@@ -2,7 +2,7 @@
 
 ## Topics Covered
 
-Generating descriptive summary tables, exporting multi-sheet Excel workbooks with openxlsx, exporting CSVs with write_csv, and styling Excel output with createStyle.
+Frequency tables with percentages, grouped descriptive statistics, cross-tabulations with counts and row percentages, and exporting a multi-sheet Excel report with openxlsx and a CSV file.
 
 ## Files
 
@@ -14,19 +14,15 @@ Generating descriptive summary tables, exporting multi-sheet Excel workbooks wit
 
 final_demo.csv, final_clin.csv
 
+Derived files are written to `./outputs/`.
+
 ## Key R Syntax
 
 ```r
-library(openxlsx)
+demo_clin <- left_join(final_demo, final_clin, by = "id")
+demo_clin %>% group_by(hlevel) %>%
+  summarise(n = sum(!is.na(bleeds)), mean = mean(bleeds, na.rm = TRUE))
+prop.table(table(demo_clin$htype, demo_clin$hlevel), 1)
 
-wb <- createWorkbook()
-addWorksheet(wb, "Demographics")
-writeData(wb, "Demographics", final_demo)
-
-# Bold header row
-addStyle(wb, "Demographics",
-  createStyle(textDecoration = "bold"),
-  rows = 1, cols = 1:ncol(final_demo))
-
-saveWorkbook(wb, "outputs/report.xlsx", overwrite = TRUE)
+write.xlsx(list("Summary" = summary_tbl), "outputs/clinical_cohort_report.xlsx")
 ```
